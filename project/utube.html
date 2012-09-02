@@ -1,0 +1,18 @@
+<SCRIPT LANGUAGE="JavaScript">
+function random_banner(){
+var i=0;
+banners = new Array();
+banners[0] = 'aVagmBvFLig';
+banners[1] = 'z4HX8-du2nQ';
+banners[2] = 'eC_MAev0eyk';
+banners[3] = 'QGzL50OXh6A';
+banners[4] = 'mECG_4QRJMg';
+banners[5] = 'X57dthALogw';
+today = new Date();
+i=today.getSeconds();
+n=banners.length;
+return banners[i-Math.round((i-1)/n)*n];
+}
+var vid=random_banner();
+document.write('<object width="170" height="149"><param name="movie" value="http://www.youtube.com/v/' + vid + '&hl=en&fs=1"><param name="allowFullScreen" value="true"><\/param><embed src="http://www.youtube.com/v/' + vid + '&hl=en&fs=1" allowfullscreen="true" width="170" height="149"><\/embed><\/object>')
+</SCRIPT>
