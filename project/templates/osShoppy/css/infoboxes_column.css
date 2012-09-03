@@ -1,0 +1,1999 @@
+/* $Id: /catalog/templates/osshoppy/css/infoboxes_column.css */
+
+/* infoboxColumn_default */
+.infoboxColumn {
+  background: #333;
+}
+
+.infoboxColumnContents {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNotice {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContents {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumn, SPAN.infoboxColumn {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumn_default_eof */
+/* infoboxColumnAffiliate */
+.infoboxColumnAffiliate {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsAffiliate {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeAffiliate {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsAffiliate {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingAffiliate {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnAffiliate, SPAN.infoboxColumnAffiliate {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnAffiliate_eof */
+/* infoboxColumnArticles */
+.infoboxColumnArticles {
+  background: #999;
+}
+
+.infoboxColumnContentsArticles {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeArticles {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsArticles {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingArticles {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnArticles, SPAN.infoboxColumnArticles {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnArticles_eof */
+/* infoboxColumnAuthors */
+.infoboxColumnAuthors {
+  background: #999;
+}
+
+.infoboxColumnContentsAuthors {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeAuthors {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsAuthors {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnAuthors, SPAN.infoboxColumnAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnAuthors_eof */
+/* infoboxColumnBestsellers */
+.infoboxColumnBestsellers {
+  background: #cccccc;
+}
+
+.infoboxColumnContentsBestsellers {
+  background: #cccccc;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeBestsellers {
+  background: #cccccc;
+}
+
+.infoboxColumnNoticeContentsBestsellers {
+  background: #cccccc;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingBestsellers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #cccccc;
+  color: #333333;
+}
+
+TD.infoboxColumnBestsellers, SPAN.infoboxColumnBestsellers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnBestsellers_eof */
+/* infoboxColumnScrollingBestsellers */
+.infoboxColumnScrollingBestsellers {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsScrollingBestsellers {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeScrollingBestsellers {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsScrollingBestsellers {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingScrollingBestsellers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnScrollingBestsellers, SPAN.infoScrollingBoxBestsellers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+#pscroller_bs {
+height: 80px;
+text-align: left;
+border: 0px;
+padding: 0px;
+}
+
+.pscroller_c_bs {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnScrollingBestsellers_eof */
+/* infoboxColumnCategories */
+.infoboxColumnCategories {
+  background: #333333;
+}
+
+.infoboxColumnContentsCategories {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeCategories {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsCategories {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingCategories {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnCategories, SPAN.infoboxColumnCategories {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnCategories_eof */
+/* infoboxColumnCategoriesDropdown */
+.infoboxColumnCategoriesDropdown {
+  background: #333;
+}
+
+.infoboxColumnContentsCategoriesDropdown {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeCategoriesDropdown {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsCategoriesDropdown {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingCategoriesDropdown {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnCategoriesDropdown, SPAN.infoboxColumnCategoriesDropdown {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnCategoriesDropdown_eof */
+/* infoboxColumnCurrencies */
+.infoboxColumnCurrencies {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsCurrencies {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeCurrencies {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsCurrencies {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingCurrencies {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnCurrencies, SPAN.infoboxColumnCurrencies {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnCurrencies_eof */
+/* infoboxColumnCustomergroup */
+.infoboxColumnCustomergroup {
+  background: #333;
+}
+
+.infoboxColumnContentsCustomergroup {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeCustomergroup {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsCustomergroup {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingCustomergroup {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnCustomergroup, SPAN.infoboxColumnCustomergroup {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnCustomergroup_eof */
+/* infoboxColumnDocuments */
+.infoboxColumnDocuments {
+  background: #666;
+}
+
+.infoboxColumnContentsDocuments {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeDocuments {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsDocuments {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingDocuments {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #666;
+  color: #ff9900;
+}
+
+TD.infoboxColumnDocuments, SPAN.infoboxColumnDocuments {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnDocuments_eof */
+/* infoboxColumnFAQ */
+.infoboxColumnFAQ {
+  background: #999;
+}
+
+.infoboxColumnContentsFAQ {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeFAQ {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsFAQ {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingFAQ {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnFAQ, SPAN.infoboxColumnFAQ {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnFAQ_eof */
+/* infoboxColumnFAQAuthors */
+.infoboxColumnFAQAuthors {
+  background: #999;
+}
+
+.infoboxColumnContentsFAQAuthors {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeFAQAuthors {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsFAQAuthors {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingFAQAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnFAQAuthors, SPAN.infoboxColumnFAQAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnFAQAuthors_eof */
+/* infoboxColumnFeatured */
+.infoboxColumnFeatured {
+  background: #333;
+}
+
+.infoboxColumnContentsFeatured {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeFeatured {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsFeatured {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingFeatured {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnFeatured, SPAN.infoboxColumnFeatured {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnFeatured_eof */
+/* infoboxColumnFollowus */
+.infoboxColumnFollowus {
+  background: #FF9900;
+}
+
+.infoboxColumnContentsFollowus {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeFollowus {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsFollowus {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingFollowus {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnFollowus, SPAN.infoboxColumnFollowus {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnFollowus_eof */
+/* infoboxColumnFreeDownload_default */
+.infoboxColumnFreeDownload {
+  background: #333;
+}
+
+.infoboxColumnContentsFreeDownload {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeFreeDownload {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsFreeDownload {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingFreeDownload {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnFreeDownload, SPAN.infoboxColumnFreeDownload {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnFreeDownload_eof */
+/* infoboxGalleryPlain */
+.infoBoxGalleryPlain {
+  background: #333;
+}
+
+.infoBoxContentsGalleryPlain {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeGalleryPlain {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsGalleryPlain {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingGalleryPlain {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxGalleryPlain, SPAN.infoBoxGalleryPlain {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxGalleryPlain_eof */
+/* infoboxGallerySlideshow */
+.infoBoxGallerySlideshow {
+  background: #333;
+}
+
+.infoBoxContentsGallerySlideshow {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeGallerySlideshow {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsGallerySlideshow {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingGallerySlideshow {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxGallerySlideshow, SPAN.infoBoxGallerySlideshow {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxGallerySlideshow_eof */
+/* infoboxColumnGifts */
+.infoboxColumnGifts {
+  background: #333;
+}
+
+.infoboxColumnContentsGifts {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeGifts {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsGifts {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingGifts {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnGifts, SPAN.infoboxColumnGifts {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnGifts_eof */
+/* infoboxColumnHeadertags */
+.infoboxColumnHeadertags {
+  background: #333;
+}
+
+.infoboxColumnContentsHeadertags {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeHeadertags {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsHeadertags {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingHeadertags {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnHeadertags, SPAN.infoboxColumnHeadertags {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnHeadertags_eof */
+/* infoboxColumnHeadertagsseo */
+.infoboxColumnHeadertagsseo {
+  background: #333;
+}
+
+.infoboxColumnContentsHeadertagsseo {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeHeadertagsseo {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsHeadertagsseo {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingHeadertagsseo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnHeadertagsseo, SPAN.infoboxColumnHeadertagsseo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnHeadertagsseo_eof */
+/* infoboxColumnHeadertagsseoW */
+.infoboxColumnHeadertagsseoW {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsHeadertagsseoW {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeHeadertagsseoW {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsHeadertagsseoW {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingHeadertagsseoW {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnHeadertagsseoW, SPAN.infoboxColumnHeadertagsseoW {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnHeadertagsseoW_eof */
+/* infoboxColumnGinfo */
+.infoboxColumnGinfo {
+  background: #999;
+}
+
+.infoboxColumnContentsGinfo {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeGinfo {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsGinfo {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingGinfo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnGinfo, SPAN.infoboxColumnGinfo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnGinfo_eof */
+/* infoboxColumnGinfoAuthors */
+.infoboxColumnGinfoAuthors {
+  background: #999;
+}
+
+.infoboxColumnContentsGinfoAuthors {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeGinfoAuthors {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsGinfoAuthors {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingGinfoAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnGinfoAuthors, SPAN.infoboxColumnGinfoAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnGinfoAuthors_eof */
+/* infoboxColumnInformation */
+.infoboxColumnInformation {
+  background: #333333;
+}
+
+.infoboxColumnContentsInformation {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeInformation {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsInformation {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingInformation {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnInformation, SPAN.infoboxColumnInformation {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnInformation_eof */
+/* infoboxColumnLanguages */
+.infoboxColumnLanguages {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsLanguages {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeLanguages {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsLanguages {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingLanguages {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnLanguages, SPAN.infoboxColumnLanguages {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnLanguages_eof */
+/* infoboxColumnLinks */
+.infoboxColumnLinks {
+  background: #333;
+}
+
+.infoboxColumnContentsLinks {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeLinks {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsLinks {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingLinks {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnLinks, SPAN.infoboxColumnLinks {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnLinks_eof */
+/* infoboxColumnLiveSupport */
+.infoBoxColumnLiveSupport {
+  background: #666;
+}
+
+.infoBoxColumnContentsLiveSupport {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxColumnNoticeLiveSupport {
+  background: #FF8E90;
+}
+
+.infoBoxColumnNoticeContentsLiveSupport {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxColumnHeadingLiveSupport {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #666;
+  color: #CCC;
+}
+
+TD.infoBoxColumnLiveSupport, SPAN.infoBoxColumnLiveSupport {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnLiveSupport_eof */
+/* infoboxColumnLatestNews */
+.infoBoxColumnLatestNews {
+  background: #FF9900;
+}
+
+.infoBoxColumnContentsLatestNews {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxColumnNoticeLatestNews {
+  background: #FF8E90;
+}
+
+.infoBoxColumnNoticeContentsLatestNews {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxColumnHeadingLatestNews {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #FF9900;
+  color: #666666;
+}
+
+TD.infoBoxColumnLatestNews, SPAN.infoBoxColumnLatestNews {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxLatestNews_eof */
+/* infoboxColumnLogin */
+.infoboxColumnLogin {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsLogin {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeLogin {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsLogin {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingLogin {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnLogin, SPAN.infoboxColumnLogin {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnLogin_eof */
+/* infoboxColumnManufacturerinfo */
+.infoboxColumnManufacturerinfo {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsManufacturerinfo {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeManufacturerinfo {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsManufacturerinfo {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingManufacturerinfo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnManufacturerinfo, SPAN.infoboxColumnManufacturerinfo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnManufacturerinfo_eof */
+/* infoboxColumnManufacturers */
+.infoboxColumnManufacturers {
+  background: #333333;
+}
+
+.infoboxColumnContentsManufacturers {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeManufacturers {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsManufacturers {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingManufacturers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnManufacturers, SPAN.infoboxColumnManufacturers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnManufacturers_eof */
+/* infoboxColumnMyaccount */
+.infoboxColumnMyaccount {
+  background: #393;
+}
+
+.infoboxColumnContentsMyaccount {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeMyaccount {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsMyaccount {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingMyaccount {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnMyaccount, SPAN.infoboxColumnMyaccount {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnMyaccount_eof */
+/* infoboxColumnOnliners */
+.infoboxColumnOnliners {
+  background: #333333;
+}
+
+.infoboxColumnContentsOnliners {
+  background: #CCCCCC;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeOnliners {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsOnliners {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingOnliners {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnOnliners, SPAN.infoboxColumnOnliners {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnOnliners_eof */
+/* infoboxColumnOrderhistory */
+.infoboxColumnOrderhistory {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsOrderhistory {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeOrderhistory {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsOrderhistory {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingOrderhistory {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnOrderhistory, SPAN.infoboxColumnOrderhistory {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnOrderhistory_eof */
+/* infoboxColumnPayment */
+.infoboxColumnPayment {
+  background: #FF9900;
+}
+
+.infoboxColumnContentsPayment {
+  background: #FFF;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticePayment {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsPayment {
+  background: #FFF;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingPayment {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnPayment, SPAN.infoboxColumnPayment {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnPayment_eof */
+/* infoboxColumnPolls */
+.infoboxColumnPolls {
+  background: #333;
+}
+
+.infoboxColumnContentsPolls {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticePolls {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsPolls {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingPolls {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff0000;
+}
+
+TD.infoboxColumnPolls, SPAN.infoboxColumnPolls {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnPolls_eof */
+/* infoboxColumnProductnotifications */
+.infoboxColumnProductnotifications {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsProductnotifications {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeProductnotifications {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsProductnotifications {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingProductnotifications {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnProductnotifications, SPAN.infoboxColumnProductnotifications {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnProductnotifications_eof */
+/* infoboxColumn_QRcode */
+.infoboxColumnQRcode {
+  background: #333;
+}
+
+.infoboxColumnContentsQRcode {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeQRcode {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsQRcode {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingQRcode {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnQRcode, SPAN.infoboxColumnQRcode {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumn_QRcode_eof */
+/* infoboxColumnRecentlyViewed */
+.infoboxColumnRecentlyViewed {
+  background: #333;
+}
+
+.infoboxColumnContentsRecentlyViewed {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeRecentlyViewed {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsRecentlyViewed {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingRecentlyViewed {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnRecentlyViewed, SPAN.infoboxColumnRecentlyViewed {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnRecentlyViewed_eof */
+/* infoboxColumnReferences */
+.infoboxColumnReferences {
+  background: #333;
+}
+
+.infoboxColumnContentsReferences {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeReferences {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsReferences {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingReferences {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnReferences, SPAN.infoboxColumnReferences {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnReferences_eof */
+/* infoboxColumnReviews */
+.infoboxColumnReviews {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsReviews {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeReviews {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsReviews {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingReviews {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnReviews, SPAN.infoboxColumnReviews {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnReviews_eof */
+/* infoboxColumnSearch */
+.infoboxColumnSearch {
+  background: #333333;
+}
+
+.infoboxColumnContentsSearch {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeSearch {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsSearch {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingSearch {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnSearch, SPAN.infoboxColumnSearch {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnSearch_eof */
+/* infoboxColumnShipping */
+.infoboxColumnShipping {
+  background: #333333;
+}
+
+.infoboxColumnContentsShipping {
+  background: #FFF;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeShipping {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsShipping {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingShipping {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnShipping, SPAN.infoboxColumnShipping {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnShipping_eof */
+/* infoboxColumnShopbypriceDrop */
+.infoboxColumnShopbypriceDrop {
+  background: #FF9900;
+}
+
+.infoboxColumnContentsShopbypriceDrop {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeShopbypriceDrop {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsShopbypriceDrop {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingShopbypriceDrop {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnShopbypriceDrop, SPAN.infoboxColumnShopbypriceDrop {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnShopbypriceDrop_eof */
+/* infoboxColumnShopbypriceText */
+.infoboxColumnShopbypriceText {
+  background: #333;
+}
+
+.infoboxColumnContentsShopbypriceText {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeShopbypriceText {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsShopbypriceText {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingShopbypriceText {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnShopbypriceText, SPAN.infoboxColumnShopbypriceText {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnShopbypriceText_eof */
+/* infoboxColumnShoppingcart */
+.infoboxColumnShoppingcart {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsShoppingcart {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeShoppingcart {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsShoppingcart {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingShoppingcart {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnShoppingcart, SPAN.infoboxColumnShoppingcart {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnShoppingcart_eof */
+/* infoboxColumnSpecials */
+.infoboxColumnSpecials {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsSpecials {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeSpecials {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsSpecials {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingSpecials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnSpecials, SPAN.infoboxColumnSpecials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnSpecials_eof */
+/* infoboxColumnScrollingSpecials */
+.infoboxColumnScrollingSpecials {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsScrollingSpecials {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeScrollingSpecials {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsScrollingSpecials {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingScrollingSpecials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnScrollingSpecials, SPAN.infoboxColumnScrollingSpecials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+#pscroller1 {
+	height: 125px;
+	border: 0px;
+	padding: 5px;
+}
+
+#pscroller2{
+	width: 350px;
+	height: 20px;
+	border: 0px;
+	padding: 3px;
+}
+
+#pscroller2 a{
+	text-decoration: none;
+}
+
+.someclass {
+  	font-family: sans-serif;
+  	font-size: 11px;
+  	line-height: 1.5;
+}
+/* infoboxColumnScrollingSpecials_eof */
+/* infoboxColumnTagCloud */
+.infoboxColumnTagCloud {
+  background: #333333;
+}
+
+.infoboxColumnContentsTagCloud {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeTagCloud {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsTagCloud {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingTagCloud {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnTagCloud, SPAN.infoboxColumnTagCloud {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnTagCloud_eof */
+/* infoboxColumnTellafriend */
+.infoboxColumnTellafriend {
+  background: #ff9900;
+}
+
+.infoboxColumnContentsTellafriend {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeTellafriend {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsTellafriend {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingTellafriend {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnTellafriend, SPAN.infoboxColumnTellafriend {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnTellafriend_eof */
+/* infoboxTestimonials */
+.infoBoxColumnTestimonials {
+  background: #333;
+}
+
+.infoBoxColumnContentsTestimonials {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxColumnNoticeTestimonials {
+  background: #FF8E90;
+}
+
+.infoBoxColumnNoticeContentsTestimonials {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxColumnHeadingTestimonials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxColumnTestimonials, SPAN.infoBoxColumnTestimonials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnTestimonials_eof */
+/* infoboxColumnWhatsnew */
+.infoboxColumnWhatsnew {
+  background: #333333;
+}
+
+.infoboxColumnContentsWhatsnew {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeWhatsnew {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsWhatsnew {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingWhatsnew {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnWhatsnew, SPAN.infoboxColumnWhatsnew {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnWhatsnew_eof */
+/* infoboxColumnScrollingWhatsnew */
+.infoboxColumnScrollingWhatsnew {
+  background: #333333;
+}
+
+.infoboxColumnContentsScrollingWhatsnew {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeScrollingWhatsnew {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsScrollingWhatsnew {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingScrollingWhatsnew {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnScrollingWhatsnew, SPAN.infoboxColumnScrollingWhatsnew {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+#pscroller_np {
+height: 110px;
+border: 0px;
+padding: 5px;
+}
+
+.pscroller_c_np {
+  font-family: sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+}
+/* infoboxColumnScrollingWhatsnew_eof */
+/* infoboxColumnWishlist */
+.infoBoxColumnWishlist {
+  background: #333;
+}
+
+.infoBoxColumnContentsWishlist {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxColumnNoticeWishlist {
+  background: #FF8E90;
+}
+
+.infoBoxColumnNoticeContentsWishlist {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxColumnHeadingWishlist {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxColumnWishlist, SPAN.infoBoxColumnWishlist {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnWishlist_eof */
+/* infoboxColumnYouTube */
+.infoboxColumnYouTube {
+  background: #333333;
+}
+
+.infoboxColumnContentsYouTube {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxColumnNoticeYouTube {
+  background: #FF8E90;
+}
+
+.infoboxColumnNoticeContentsYouTube {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxColumnHeadingYouTube {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxColumnYouTube, SPAN.infoboxColumnYouTube {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxColumnYouTube_eof */
+/* infoboxColumn image in cart */
+#header-basketColumnDiv { 
+    position: relative;
+    width: 200px;
+    height:60px;
+    float:left;
+}
+
+#header-basketColumnBox { 
+    position: relative;
+    width: 180px;
+    height:60px;
+    float:center;
+	background-image: url(../../../images/infobox/header_box_basket.png);
+}
+
+A.header-basketColumn:link {
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10px;
+}
+A.header-basketColumn:visited {
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10px;
+}
+A.header-basketColumn:active {
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10px;
+}
+A.header-basketColumn:hover {
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+#header-basketColumnText { 
+    line-height:12px; 
+    font-family: Verdana, Arial, Helvetica, "Sans Serif", Tahoma;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 3px 0px 0px 6px;
+}
+/* infoboxColumn image in cart_eof */
+

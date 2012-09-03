@@ -1,0 +1,204 @@
+/*
+"One main layout Table" stylesheet for osC created by Paul Mathot
+2003/11/12
+
+- these stylesheet settings apply to all media
+- for printing styles edit templates/print.css
+- modified 2004/03/18 PaulM PandA.nl
+- To optimize the stylesheet for small filesize (=>maximum speed) you can remove most comments, and group the styles.
+*/
+
+/* begin imported some styles  from original osC stylesheet */
+.smallText {
+font-family: Verdana, Arial, sans-serif;
+font-size: 10px;
+}
+.messageStackError, .messageStackWarning {
+font-family: Verdana, Arial, sans-serif;
+font-size: 10px;
+background-color: #ffb3b5;
+}
+textarea {
+width: 100%;
+font-family: Verdana, Arial, sans-serif;
+font-size: 11px;
+}
+/* end import from original stylesheet */
+
+body, html {
+margin: 0;
+padding: 0;
+text-align: center; /* needed for IE center bug */
+}
+/* pageWrapper div for centering and width settings! 2004/01/06 */
+div#pageWrapper {
+position: relative;
+margin: 10px auto;
+width: 100%; /* set total pagewidth */
+}
+form {
+display: inline;
+}
+td {
+vertical-align: top;
+}
+td.productListing-data {
+vertical-align: middle;
+}
+table#mainLayoutLT {
+margin: 0px auto;
+width: 100%;
+}
+td.columnLT {
+width: 155px;
+padding: 0;
+}
+table.infoBoxLT td.infoBoxHeadingLT, table.infoBoxLT td.boxTextLT {
+width: 155px;
+}
+table.infoBoxLT td table {
+width: 100%;
+}
+td#contentLT {
+
+}
+.infoBoxLT {
+margin: 5px;
+}
+td#contentLT {
+padding: 10px 12px;
+}
+td.infoBoxHeadingLT, .infoBoxHeading {
+padding: 2px 4px;
+}
+td.boxTextLT {
+padding: 6px 5px;
+}
+
+div#imageNavLT{
+margin: 12px 7px 0 0;
+float: right;
+}
+.navRightLT {
+float: right;
+}
+.boxTextLT select {
+width: 90%;
+}
+td#navBarTopLT div, td#navBarBottomLT div {
+margin: 1px 5px;
+height: 17px;
+}
+.logoLT, .navLeftLT {
+float: left;
+}
+.footerLT {
+text-align: center;
+}
+.footerLT div {
+margin: 5px auto;
+}
+.infoBoxHeadingLT div {
+float: left;
+}
+#languagesBoxLT, #specialsBoxLT, #currenciesBoxLT, #whats_newBoxLT, #manufacturersBoxLT, #searchBoxLT, #tell_a_friendBoxLT {
+text-align: center;
+}
+/* begin colors and borders (for link colors: see the link styles section below) */
+table.infoBox, table.productListing {
+border: #fee662 solid 1px;
+}
+.productListing-heading {
+background-color: #fee662;
+}
+tr.productListing-even td {
+background-color: #ffe;
+}
+tr.productListing-odd td.productListing-data {
+background-color: #fff;
+}
+.errorText {
+color: red;
+}
+/* .cBoxE higlighting for categories box enhancement contrib */
+.cBoxE {
+color: red;
+}
+td.infoBoxHeading {
+border: 0px black solid;
+}
+td#navBarTopLT, td#navBarBottomLT {
+border: 1px #ffb21c solid;
+border-width: 1px 0;
+}
+table#mainLayoutLT {
+border: 2px #ffb21c solid;
+}
+.infoBoxLT td {
+border: 1px black solid;
+}
+#contentLT table td.pageHeading, h1 {
+color: #d00;
+}
+.infoBoxLT td table td {
+border-width: 0px;
+}
+.inputRequirement, .greetUser {
+color: red;
+}
+/* example how to assign styles to one individual small infobox (delete if you don't like) */
+table#shopping_cartBoxLT {
+font-weight: bold;
+color: #e00;
+}
+
+td.infoBoxHeadingLT, .infoBoxHeading, .productListing-heading {
+background: #fee662 url(images/background.jpg) repeat-x;
+}
+/* end colors and borders */
+.infoBoxHeading img {
+display: none;
+}
+/* begin fonts */
+#copyRightLT {
+font-size: 11px;
+}
+td.infoBoxHeading {
+font-weight: bold;
+}
+.infoBoxLT td, .infoboxLT td.boxTextLT form select {
+font-size: 11px;
+font-family: arial, sans-serif;
+}
+#navBarTopLT, #navBarBottomLT {
+font-size: 12px;
+font-weight: bold;
+}
+/* font size for content in and outside tables */
+#contentLT table td, #contentLT {
+font-size: 11px;
+font-family: arial, sans-serif;
+}
+#contentLT table td.pageHeading, h1 {
+font-size: 22px;
+font-weight: normal;
+font-family: times, serif;
+text-indent: 15px;
+padding-top: 5px;
+}
+/* end fonts */
+/* begin link styles */
+.infoBoxHeadingLT a {
+float: right;
+margin: 2px;
+}
+a {
+text-decoration: none;
+color: #06f;
+}
+a:hover {
+text-decoration: underline;
+color: red;
+background-color: #fff;
+}
+/* end link styles */

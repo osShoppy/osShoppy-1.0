@@ -1,0 +1,154 @@
+/*
+//--------------------------------------------------------------------\\
+||-->>  http://www.hilvy.com   Copyright(c) 2012     osShoppy     <<--||
+||-->>  last update: //00-00-0000|00:00:00\\ by:  mail@hilvy.com  <<--||
+\\--------------------------------------------------------------------//
+||-->> original file ::-> osShoppy Template
+||-->> $Id: /catalog/templates/osshoppy/css/base.css
+//--------------------------------------------------------------------\\
+||-->>        Released under the GNU General Public License       <<--||
+\\--------------------------------------------------------------------//
+*/
+
+.boxText { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
+.errorBox { font-family : Verdana, Arial, sans-serif; font-size : 10px; background: #ffb3b5; font-weight: bold; }
+.stockWarning { font-family : Verdana, Arial, sans-serif; font-size : 10px; color: #cc0033; }
+.productsNotifications { background: #f2fff7; }
+.orderEdit { font-family : Verdana, Arial, sans-serif; font-size : 10px; color: #70d250; text-decoration: underline; }
+
+
+/* container */
+TD.maincontainer {
+  background: #ff9900;
+  padding: 2;
+}
+
+TD.container {
+  background:#fff;
+  padding: 2;
+}
+
+BODY {
+  background: #444;
+  color: #333;
+  margin: 5px;
+}
+/* container_eof */
+
+/* header */
+TD.header {
+  background: #CCC;
+  border:2px solid #333;
+}
+
+TR.header {
+  background: #CCC;
+  border:5px solid #333;
+}
+
+TD.headerimage {
+	background:#ccc;
+	padding:5 10 5 30;
+}
+
+TD.randomheader {
+	background:#ccc;
+	padding: 0;
+}
+/* header_eof */
+
+/* header_navigation */
+TD.headerNavigation {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  background: #333;
+  color: #ff9900;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+TR.headerNavigation {
+  background: #333;
+}
+
+
+TD.headerText {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color: #666;
+}
+
+.dateTime {
+  color:#FFF;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  padding-bottom: 3px;
+}
+
+A.headerNavigation { 
+  color: #FFFFFF; 
+}
+
+A.headerNavigation:hover {
+  color: #ff9900;
+  text-decoration: none;
+}
+/* header_navigation_eof */
+
+/* footer_navigation */
+TD.footerNavigation {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  background: #333;
+  color: #ff9900;
+  font-weight: bold;
+}
+
+TR.footerNavigation {
+  background: #333;
+}
+
+A.footerNavigation { 
+  color: #FFFFFF; 
+}
+
+A.footerNavigation:hover {
+  color: #ff9900;
+  text-decoration:none;
+}
+/* footer_navigation_eof */
+
+/* footer */
+TD.footer {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  background: #ccc;
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+}
+
+TR.footer {
+  background: #bbc3d3;
+
+}
+
+TD.footerText {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color:#666;
+}
+
+TD.footerText A {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color:#333;
+}
+
+TD.footerText A:hover {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color:#ff9900;
+  text-decoration:none;
+}
+/* footer_eof */

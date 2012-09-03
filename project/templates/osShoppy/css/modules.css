@@ -1,0 +1,840 @@
+/* $Id: /catalog/templates/osshoppy/css/modules.css */
+
+/* BOF-A: from stylesheet-new.css */
+/* replaces old "select width settings" in currencies.php, manufacturers.php box and search.php box */
+.boxText select {
+width: 95%;
+}
+/* EOF-A: from stylesheet-new.css */
+/* BOF Dynamic Sitemap */
+  ul.sitemap {
+  color: #ff9900;
+}
+/* EOF Dynamic Sitemap */
+/* infobox_default */
+.notesBox {
+  background: #f90;
+}
+
+.notesBoxContents {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.latestnewsboxheading {
+  background: #CCCCCC;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+.latestnewsboxheadingcontent {
+  background: #333333;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #F90;
+}
+
+.latestnewsbox {
+  background: #FF9900;
+}
+.latestnewsboxcontent {
+  background: #FFFFFF;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+/* Begin Testimonials Scroller */
+#pscroller_np {
+  height: 150px;
+  border: 0px;
+  padding: 5px;
+}
+.pscroller_c_np {
+  font-family: sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.marquee_hide {
+  visibility:hidden;
+}
+.marquee_show {
+  visibility:visible;
+}
+/* End Testimonials Scroller */_write.php');
+
+TD.pollBoxRow {   
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size: 10px;   border-color: #eeeeee;   
+  border-style: solid;   border-width: 1px;
+} 
+
+TD.pollBoxText {   
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size: 10px;   border-color: #eeeeee;   
+  border-style: solid;   
+  border-width: 1px;
+} 
+
+TR.pollOptRow {   
+  background: #f1f9fe; 
+} 
+TR.pollFooter { 
+  background: #f1f9fe;
+} 
+
+/* Start Document Manager */
+.documents_heading { /* Headings on catalog/documents.php */
+  font-weight: bold;
+  font-size: 9pt;
+}
+
+.documents_category { /* Category names on catalog/documents.php */
+  font-weight: bold;
+  font-style: italic;
+  font-size: 11pt;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+.document_type { /* Description on catalog/includes/modules/documents.php (Used on catalog/product_info.php) */
+  font-family:Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 9pt;
+}
+
+.document { /* Document name on catalog/includes/modules/documents.php (Used on catalog/product_info.php) */
+  font-weight: normal;
+  font-size: 9pt;
+  height: 1.5em;
+}
+
+.document a { /* Document link on catalog/includes/modules/documents.php (Used on catalog/product_info.php) */
+}
+/* End Document Manager */
+/* Links Manager II v1.29 begin */
+TABLE.linkListing {
+  border: 1px;
+  border-style: solid;
+  border-color: #b6b7cb;
+  border-spacing: 1px;
+}
+.linkListing-heading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #FFFFFF;
+  text-align: center;
+}
+A.linkListing-heading {
+  color: #FFFFFF;
+}
+A.linkListing-heading:hover {
+  color: #FF9900;
+}
+TD.linkListing-data {
+  border-right: 1px solid #b6b7cb;
+  border-bottom: 1px solid #b6b7cb;
+  padding: 4px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color: #333;
+}
+A.linkListing-data {
+  color: #666;
+}
+A.linkListing-data:hover {
+  color: #FF9900;
+}
+TR.linkListing-odd {
+  background: #CCC;
+}
+TR.linkListing-even {
+  background: #FFFFFF;
+}
+.linkFeatured {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #FFFFFF;
+  color: #333;
+  text-align: center;
+  border: 1px solid black; 
+}
+.linkFeaturedHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background: #FFFFFF;
+  color: #333;
+  text-align: center;
+}
+A.linkListingHeading {
+  color: #000000;
+}
+A.linkListingHeading:hover {
+  color: #FF9900;
+}
+.linkFeaturedMain {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #FFFFFF;
+  color: #333;
+  text-align: center;
+}
+A.linkFeaturedMain {
+  color: #FFFFFF;
+}
+A.linkFeaturedMain:hover {
+  color: #FF9900;
+}
+.linkListingMain {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  background: #ffffff;
+  color: #000000;
+  text-align: left;
+}
+A.linkListingMain {
+  color: #000000;
+}
+A.linkListingMain:hover {
+  color: #FF9900;
+}
+.linkListingCats {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+A.linkListingCats {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  color: #000000;
+  line-height: 1.5;
+}
+A.linkListingCats:hover {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  color: #FF9900;
+}
+.linkListingSubCats {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 9px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 1.5;
+}
+A.linkListingSubCats {
+  color: #000;
+  line-height: 1.5;
+}
+A.linkListingSubCats:hover {
+  color: #FF9900;
+}
+.linkListingDescription {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  color: #000;
+  text-align: center;
+}
+TABLE.linkSubmit {
+  border: 3px;
+  border-style: ridge;
+  border-color: #b6b7cb;
+}
+TR.linkSubmit {
+  background-color: #f8f8f9;
+}
+/* Links Manager II v1.29 end */
+
+/* Dangling Carrot */
+<!--changes the table of gift  margin is that if there is more than one gift that they dont stick together-->	
+.table.gifts
+	{
+	margin: 1px;
+	}
+<!--changes the table of gift -->
+.td.gift
+	{
+	margin: 6px;
+	padding: 4px;
+  	font-family: Verdana, Arial, sans-serif;
+  	text-align: center;
+ 	font-size: 12px;
+    font-style:italic;
+  	font-weight: bold;
+  	letter-spacing:0.1mm;
+  	word-spacing:0.4mm;
+  	text-decoration:none;
+    line-height:19pt;
+ 	background: #E8DEDC;
+ 	border-style: ridge;
+	}
+<!--changes "Please remove other gifts..." -->
+.span.gift1
+	{
+	margin-top: 2px;
+	padding: 1px;
+  	font-family: Verdana, Arial, sans-serif;
+  	text-align: center;
+ 	font-size: 12px;
+    font-style:oblique ;
+  	font-weight: 500;
+  	letter-spacing:0.1mm;
+  	word-spacing:0.4mm;
+  	text-decoration:none;
+    line-height:14pt;
+  	color: #FF0202;
+ 	background: #E8DEDC;
+ 	border-style: none;
+	}
+<!--changes "(Maximum 1 gift per order)" -->
+.span.gift2
+	{
+  	font-family: Verdana, Arial, sans-serif;
+  	text-align: center;
+ 	font-size: 12px;
+    font-style:normal;
+  	font-weight: 500;
+  	letter-spacing:0.1mm;
+  	word-spacing:0.2mm;
+  	text-decoration:none;
+    line-height:14pt;
+  	color: #5C150A;
+ 	background: #E8DEDC;
+	}
+<!--changes "By spending over %s you have qualified..." -->
+.span.gift3
+	{
+  	font-family: Verdana, Arial, sans-serif;
+  	text-align: center;
+ 	font-size: 12px;
+    font-style:normal;
+  	font-weight: 500;
+  	letter-spacing:0.1mm;
+  	word-spacing:0.4mm;
+  	text-decoration:none;
+    line-height:14pt;
+  	color: #5C150A;
+ 	background: #E8DEDC;
+	}
+<!--changes "Spend just %s more to get ..." -->
+.span.gift4
+	{
+  	font-family: Verdana, Arial, sans-serif;
+  	text-align: center;
+ 	font-size: 12px;
+    font-style:italic;
+  	font-weight: 500;
+  	letter-spacing:0.1mm;
+  	word-spacing:0.4mm;
+  	text-decoration:none;
+    line-height:14pt;
+  	color: #FF0202;
+ 	background: #E8DEDC;
+	}
+<!--changes the Name of gift -->
+.span.gift5
+	{
+  	font-family: Verdana, Arial, sans-serif;
+  	text-align: center;
+ 	font-size: 18px;
+    font-style:italic;
+  	font-weight: 600;
+  	letter-spacing:0.1mm;
+  	word-spacing:0.2mm;
+  	text-decoration:none;
+    line-height:20pt;
+  	color: #5C150A;
+ 	background: #E8DEDC;
+	}
+/* Dangling Carrot end */
+
+/* 2gether discount*/
+.getslogan	{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.gettitolo	{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.buybothText {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 8px;
+}
+
+.getprezzo {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 8px;
+}
+
+.prezzo {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 8px;
+}
+
+.getrisparmio {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.vsmalltext {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	margin-top: 8px;
+}
+/* end 2gether discount*/
+
+/* product listing enhancement */
+.infoBoxProducts {
+  background-image: url(images/my-pic.gif);
+  background-attachment: scroll;
+  background-x-position: 0%;
+  background-y-position: 0%;
+  background-repeat: repeat-x;  text-align: center;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+	border: 2px;
+	border-style: solid;
+	border-color: #666666;
+  font-weight: normal;
+  background-color: transparent;
+  color: #333333;
+	margin-bottom:-8px;
+	-moz-border-radius:20px;
+  	-webkit-border-radius:20px;
+	-khtml-border-radius:20px;
+	border-radius:20px; 
+	vertical-align: bottom;
+}
+
+.infoBoxProducts a {
+  color: #333333;
+}
+TD.infoBoxGrid {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  border: solid 1px #999999;
+}
+TD.infoBoxGrid:hover {
+		background-color: #d3d3d3;
+}
+/* set pos buy/details button on list */
+img.buy_now {  
+  margin-bottom:10px;
+} 
+/* set pos buy/details button on thumbnail */
+img.thm_buy_now {
+  margin-bottom:-3px;
+} 
+/* set style buy/details seperator thumbnail */
+.buy_now {
+  font-weight: bold;
+	font-size: 18px;
+	color: #999999;
+} 
+.infoBoxList {
+ border: ridge 0px #faf0e6;
+ border-collapse: collapse;
+ background-color: #fff;
+ }
+.thumbcontent {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color:#666666;
+  text-align:center;
+}
+TD.noborderbox {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+TD.separator {border-bottom: 1px solid #ccc;}
+
+.productListing-list-price {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+.productListing-title a, .productListing-title {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	padding-left:18px;
+	padding-bottom:10px;
+}
+.productListing-name a, .productListing-name {
+	font-family: Comic Sans MS,Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: #333;
+	font-weight: bold;
+	padding-bottom: 6px;
+
+}
+.productListing-short {
+   font-family: Verdana, Arial, sans-serif;
+   font-size: 10px;
+	 color: #333;
+}	 
+
+TABLE.buytable {
+	 width: 100%;
+	 height: 80px;
+	 vertical-align: bottom;
+         text-align:right;
+}
+DIV.multi_buy_now {
+width: 99%;
+text-align : right;
+position:relative;
+}
+
+DIV#gbutton1 {
+margin-bottom:-25px;
+z-index:30;
+}
+DIV#gbutton2 {
+margin-top:-25px;
+z-index:30;
+}
+
+.quantity {
+font-family:Verdana,Arial,sans-serif;
+font-size:10px;
+text-align : center;
+}
+
+.quantity input {
+font-family:Verdana,Arial,sans-serif;
+font-size:11px;
+text-align : center;
+background: #c0c0c0;
+font-weight: bold;
+border:2px solid #666666;
+color:#333;
+}
+TD.attributes {
+font-family:Verdana,Arial,sans-serif;
+font-size:11px;
+text-align : right;
+}
+TABLE.attributes select {
+font-family:Verdana,Arial,sans-serif;
+font-size:11px;
+background: #c0c0c0;
+font-weight: bold;
+color:#333;
+}
+TABLE.drop select {
+font-family:Verdana,Arial,sans-serif;
+font-size:11px;
+background: #c0c0c0;
+font-weight: bold;
+color:#333;
+}
+TR.list-block {
+}		
+SPAN.list_info {
+font-family: Verdana, Arial, sans-serif;
+font-size: 16px;
+color: #333;
+cursor:pointer;
+}	
+SPAN.list_info span {
+display:none;
+position:relative;  
+}		
+SPAN.list_info:hover span  {
+display:block;
+cursor:pointer;
+margin-top:-20px;
+margin-left:-100px;
+position:absolute;
+padding: 5px; 
+font-family:Verdana,Arial,sans-serif;
+font-size:12px;
+color:#333;
+background: #c0c0c0;
+border:2px solid #666666;
+text-align : center;
+}
+/* product listing enhancement-end */
+
+/* quotes */
+.quotesBoxHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  background: #bbc3d3;
+}
+.quotesLink {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+A.quotesLink {
+  color: #cc0000;
+  text-decoration: underline;
+}
+
+A.quotesLink:hover {
+  color: #AABBDD;
+  text-decoration: underline;
+}
+/* quotes_eof */
+
+/* categories dynamenu */
+
+/*   Horizontal Drop-Down Menu Style   */
+.horbar	{   /* Color of main horizontal menubar and border */
+	color: black;
+	background-color: #e6e7e6;
+	border: 1px outset #525252;
+}
+
+.horizitem	{          /* Behaviour of main horizontal menu items, leave as is for proper operation */
+	float: left;
+	white-space: nowrap;
+}
+
+.horizitem a {              /* Font style, size of submenu items */
+  font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;	
+	text-decoration: none;
+	position: relative;	
+	display: block;	
+}
+
+.horizitem a:link, .horizitem a:visited 	{      /* Font style & color of main menu items */
+	color: #000000;
+	text-decoration: none;
+}
+
+.horizitem a:hover	{       /* Font style & color, background menu color of main menu item when hovered over */
+	color: #ffffff;
+	background-color: #21459c;
+	text-decoration: none;
+}
+
+.horizitem a:active	{       /* Font style & color, background menu color of main menu item when clicked */
+	color: #ffff00;
+	background-color: #666666;	
+	text-decoration: none;
+}
+
+.horizsubmenu	{       /* Behaviour of sub-menu items - leave as is for proper operation of submenus */
+	position: absolute;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+
+.horizsubframe	{      /* Color of submenu item and border */
+	background-color: #e6e7e6;
+	border: 2px outset #fdfefd;
+	
+	position: relative;
+	display: block;	
+}
+
+.horizsubitem	{       /* Behaviour of sub-menu items - leave as is for proper operation of submenus */
+	text-align: left;
+	white-space: nowrap;
+}
+
+.horizsubitem a {            /* Font style, size of submenu items */
+  font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;	
+	text-decoration: none;
+	
+	position: relative;
+	display: block;	
+}
+
+.horizsubitem a:link, .horizsubitem a:visited	{       /* Font color, style of submenu items */
+	color: #000000;
+	font-size: 12px;	
+	text-decoration: none;
+}
+
+.horizsubitem a:hover	{      /* Font color, style, background submenu color of submenu item when hovered over */
+	color: #ffffff;
+	background-color: #21459c;
+	text-decoration: none;
+}
+
+.horizsubitem a:active	{      /* Font color, style, background submenu color of submenu item when clicked */
+	color: #ffff00;
+	background-color: #666666;		
+	text-decoration: none;
+}
+
+.horizsubitem .horizfwdarr, .horizitem .horizfwdarr	{      /* Positioning of right arrow for submenus */
+	position: absolute;
+	top: 5px;
+	right: 8px;
+}
+
+.dmselected {   /* Style override for selected category tree */
+    background-color: #ccc;
+		font-weight: bold;
+}
+
+.horbar .dmselected {   /* Style override for selected root category */
+    background-color: #999;
+}
+
+/*   Vertical Fly-Out Menu Style   */
+.verbar	{   /* Color of main vertical menubar and border */
+	color: black;
+	background-color: #e6e7e6;
+	border: 1px outset #fdfefd;
+}
+
+.vertitem	{          /* Behaviour of main vertical menu items, leave as is for proper operation */
+	text-align: left;
+	white-space: nowrap;
+}
+
+.vertitem	a {   /* Font style, size of main menu items */
+  font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;		
+	text-decoration: none;
+	position: relative;
+	display: block;		
+}
+
+.vertitem a:link, .vertitem a:visited	{   /* Default font style & color of main menu items */
+	color: #000000;
+	text-decoration: none;	
+}
+
+.vertitem a:hover	{   /* Font style & color, background menu color of main menu item when hovered over */
+	color: #ffffff;
+	background-color: #21449c;
+	text-decoration: none;
+}
+
+.vertitem a:active	{   /* Font style & color, background menu color of main menu item when clicked */
+	color: #ffff00;
+	background-color: #666666;	
+	text-decoration: none;	
+}
+
+.vertsubmenu	{   /* Behaviour of sub-menu  - leave as is for proper operation of submenus */
+	position: absolute;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+
+.vertsubframe	{   /* Color of submenu item and border */
+	background-color: #e6e7e6;
+	border: 2px outset #fdfefd;
+
+	position: relative;
+	display: block;	
+}
+
+.vertsubitem	{     /* Behaviour of sub-menu  - leave as is for proper operation of submenus */
+	text-align: left;
+	white-space: nowrap;
+}
+
+.vertsubitem a	{   /* Font style, size of submenu items */
+  font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;			
+	text-decoration: none;
+	
+	position: relative;
+	display: block;	
+}
+
+.vertsubitem a:link, .vertsubitem a:visited	{   /* Default font style & color of submenu items */
+	color: #000000;
+	text-decoration: none;	
+}
+
+.vertsubitem a:hover	{   /* Font style & color, background submenu color of submenu item when hovered over */
+	color: #ffffff;
+	background-color: #21449c;
+	text-decoration: none;
+}
+
+.vertsubitem a:active	{   /* Font style & color, background submenu color of submenu item when clicked */
+	color: #ffff00;
+	background-color: #666666;	
+	text-decoration: none;			
+}
+
+.vertsubitem .vertfwdarr, .vertitem .vertfwdarr	{   /* Positioning of right arrow for submenus */
+	position: absolute;
+	top: 5px;
+	right: 8px;
+}
+
+.dmselected {   /* Style override for selected category tree */
+    background-color: #ccc;
+		font-weight: bold;
+}
+
+.verbar .dmselected {   /* Style override for selected root category */
+    background-color: #999;
+}
+
+/* Tree and Plain Menu Style */
+.treemenudiv	{     /* Behaviour of tree/plain menu item - leave as is for proper performance */
+	display: block;
+	white-space: nowrap;
+}
+
+
+.phplmbodytable { /* Class of table cells containing plain menus */
+
+}
+
+.phplmnormal {     /* Font size & color of unlinked menu items */
+	color: #000000;
+	font-size: 11px;	
+	text-decoration: none;	
+}
+
+a.phplm:link, a.phplm:visited	{      /* Font color, style of linked & visited menu items */
+	color: #003300;
+	font-size: 11px;	
+	text-decoration: none;	
+}
+
+a.phplm:hover	{      /* Font color, style of menu items when hovered over */
+	color: #841212;
+	background-color: #ccc;
+	font-size: 11px;	
+	text-decoration: none;	
+}
+
+a.phplm:active	{      /* Font size & color of menu items when clicked */
+	color: #ff0000;
+	font-size: 11px;	
+	text-decoration: none;	
+}
+
+.dmselected {   /* Style overide for selected category tree */
+    background-color: #ccc;
+		font-weight: bold;
+}
+/* categories dynamenu_eof */

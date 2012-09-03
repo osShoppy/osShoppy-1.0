@@ -1,0 +1,63 @@
+/*
+//--------------------------------------------------------------------\\
+||-->>  http://www.hilvy.com   Copyright(c) 2012     osShoppy     <<--||
+||-->>  last update: //00-00-0000|00:00:00\\ by:  mail@hilvy.com  <<--||
+\\--------------------------------------------------------------------//
+||-->> original file ::-> osShoppy Template
+||-->> $Id: /catalog/templates/osshoppy/css/common.css
+//--------------------------------------------------------------------\\
+||-->>        Released under the GNU General Public License       <<--||
+\\--------------------------------------------------------------------//
+*/
+
+A {
+  color: #666;
+  text-decoration: none;
+}
+
+A:hover {
+  color: #f60;
+  text-decoration: underline;
+}
+
+/* text */
+h1 {
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 20px;
+ font-weight: bold;
+ margin-bottom: 0;
+ padding-bottom: 0;
+ color: #333;
+}
+h2 {
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 14px;
+ font-weight: normal;
+ margin-bottom: 0;
+ padding-bottom: 0;
+ color: #000;
+}
+/* text */
+
+.shoppingNavigation {
+ font-family: Verdana, Arial, sans-serif;
+ color:#FF9900;
+ font-size:10px;
+ padding:0;
+ margin:0;
+}
+
+SPAN.errorText {
+  font-family: Verdana, Arial, sans-serif;
+  color: #ff0000;
+}
+
+SPAN.activeText {
+  font-family: Verdana, Arial, sans-serif;
+  color: #f90;
+}
+
+TD.smallText, SPAN.smallText, P.smallText {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}

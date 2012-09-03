@@ -1,0 +1,2033 @@
+/* $Id: /catalog/templates/osshoppy/css/infoboxes.css */
+
+/* infobox_default */
+.infoBox {
+  background: #333;
+}
+
+.infoBoxContents {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNotice {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContents {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBox, SPAN.infoBox {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infobox_default_eof */
+/* infoboxAffiliate */
+.infoBoxAffiliate {
+  background: #ff9900;
+}
+
+.infoBoxContentsAffiliate {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeAffiliate {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsAffiliate {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingAffiliate {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxAffiliate, SPAN.infoBoxAffiliate {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxAffiliate_eof */
+/* infoboxArticles */
+.infoBoxArticles {
+  background: #333;
+}
+
+.infoBoxContentsArticles {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeArticles {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsArticles {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingArticles {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxArticles, SPAN.infoBoxArticles {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxArticles_eof */
+/* infoboxAuthors */
+.infoBoxAuthors {
+  background: #333;
+}
+
+.infoBoxContentsAuthors {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeAuthors {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsAuthors {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxAuthors, SPAN.infoBoxAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxAuthors_eof */
+/* infoboxBestsellers */
+.infoBoxBestsellers {
+  background: #cccccc;
+}
+
+.infoBoxContentsBestsellers {
+  background: #cccccc;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeBestsellers {
+  background: #cccccc;
+}
+
+.infoBoxNoticeContentsBestsellers {
+  background: #cccccc;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingBestsellers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #cccccc;
+  color: #333333;
+}
+
+TD.infoBoxBestsellers, SPAN.infoBoxBestsellers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxBestsellers_eof */
+/* infoboxScrollingBestsellers */
+.infoBoxScrollingBestsellers {
+  background: #ff9900;
+}
+
+.infoBoxContentsScrollingBestsellers {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeScrollingBestsellers {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsScrollingBestsellers {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingScrollingBestsellers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxScrollingBestsellers, SPAN.infoScrollingBoxBestsellers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+#pscroller_bs {
+height: 80px;
+text-align: left;
+border: 0px;
+padding: 0px;
+}
+
+.pscroller_c_bs {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxScrollingBestsellers_eof */
+/* infoboxCategories */
+.infoBoxCategories {
+  background: #333333;
+}
+
+.infoBoxContentsCategories {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeCategories {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsCategories {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingCategories {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxCategories, SPAN.infoBoxCategories {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxCategories_eof */
+/* infoboxCategoriesDropdown */
+.infoBoxCategoriesDropdown {
+  background: #333;
+}
+
+.infoBoxContentsCategoriesDropdown {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeCategoriesDropdown {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsCategoriesDropdown {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingCategoriesDropdown {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxCategoriesDropdown, SPAN.infoBoxCategoriesDropdown {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxCategoriesDropdown_eof */
+/* infoboxCategoriesDynamenu */
+.infoBoxCategoriesDynamenu {
+  background: #333333;
+}
+
+.infoBoxContentsCategoriesDynamenu {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeCategoriesDynamenu {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsCategoriesDynamenu {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingCategoriesDynamenu {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxCategoriesDynamenu, SPAN.infoBoxCategoriesDynamenu {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxCategoriesDynamenu_eof */
+/* infoboxCurrencies */
+.infoBoxCurrencies {
+  background: #ff9900;
+}
+
+.infoBoxContentsCurrencies {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeCurrencies {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsCurrencies {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingCurrencies {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxCurrencies, SPAN.infoBoxCurrencies {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxCurrencies_eof */
+/* infoboxCustomergroup */
+.infoBoxCustomergroup {
+  background: #333;
+}
+
+.infoBoxContentsCustomergroup {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeCustomergroup {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsCustomergroup {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingCustomergroup {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxCustomergroup, SPAN.infoBoxCustomergroup {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxCustomergroup_eof */
+/* infoboxDocuments */
+.infoBoxDocuments {
+  background: #333;
+}
+
+.infoBoxContentsDocuments {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeDocuments {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsDocuments {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingDocuments {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxDocuments, SPAN.infoBoxDocuments {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxDocuments_eof */
+/* infoboxFAQ */
+.infoBoxFAQ {
+  background: #333;
+}
+
+.infoBoxContentsFAQ {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeFAQ {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsFAQ {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingFAQ {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxFAQ, SPAN.infoBoxFAQ {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxFAQ_eof */
+/* infoboxFAQAuthors */
+.infoBoxFAQAuthors {
+  background: #333;
+}
+
+.infoBoxContentsFAQAuthors {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeFAQAuthors {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsFAQAuthors {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingFAQAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxFAQAuthors, SPAN.infoBoxFAQAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxFAQAuthors_eof */
+/* infoboxFeatured */
+.infoBoxFeatured {
+  background: #333;
+}
+
+.infoBoxContentsFeatured {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeFeatured {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsFeatured {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingFeatured {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxFeatured, SPAN.infoBoxFeatured {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxFeatured_eof */
+/* infoboxFollowus */
+.infoBoxFollowus {
+  background: #FF9900;
+}
+
+.infoBoxContentsFollowus {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeFollowus {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsFollowus {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingFollowus {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxFollowus, SPAN.infoBoxFollowus {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxFollowus_eof */
+/* infoboxFreeDownload */
+.infoBoxFreeDownload {
+  background: #333;
+}
+
+.infoBoxContentsFreeDownload {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeFreeDownload {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsFreeDownload {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingFreeDownload {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxFreeDownload, SPAN.infoBoxFreeDownload {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxFreeDownload_eof */
+/* infoboxGalleryPlain */
+.infoBoxGalleryPlain {
+  background: #333;
+}
+
+.infoBoxContentsGalleryPlain {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeGalleryPlain {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsGalleryPlain {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingGalleryPlain {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxGalleryPlain, SPAN.infoBoxGalleryPlain {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxGalleryPlain_eof */
+/* infoboxGallerySlideshow */
+.infoBoxGallerySlideshow {
+  background: #333;
+}
+
+.infoBoxContentsGallerySlideshow {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeGallerySlideshow {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsGallerySlideshow {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingGallerySlideshow {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxGallerySlideshow, SPAN.infoBoxGallerySlideshow {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxGallerySlideshow_eof */
+/* infoboxGifts */
+.infoBoxGifts {
+  background: #333;
+}
+
+.infoBoxContentsGifts {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeGifts {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsGifts {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingGifts {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxGifts, SPAN.infoBoxGifts {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxGifts_eof */
+/* infoboxHeadertags */
+.infoBoxHeadertags {
+  background: #333;
+}
+
+.infoBoxContentsHeadertags {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeHeadertags {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsHeadertags {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingHeadertags {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxHeadertags, SPAN.infoBoxHeadertags {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxHeadertags_eof */
+/* infoboxHeadertagsseo */
+.infoBoxHeadertagsseo {
+  background: #333;
+}
+
+.infoBoxContentsHeadertagsseo {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeHeadertagsseo {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsHeadertagsseo {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingHeadertagsseo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxHeadertagsseo, SPAN.infoBoxHeadertagsseo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxHeadertagsseo_eof */
+/* infoboxHeadertagsseoW */
+.infoBoxHeadertagsseoW {
+  background: #ff9900;
+}
+
+.infoBoxContentsHeadertagsseoW {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeHeadertagsseoW {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsHeadertagsseoW {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingHeadertagsseoW {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxHeadertagsseoW, SPAN.infoBoxHeadertagsseoW {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxHeadertagsseoW_eof */
+/* infoboxGinfo */
+.infoBoxGinfo {
+  background: #333;
+}
+
+.infoBoxContentsGinfo {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeGinfo {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsGinfo {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingGinfo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxGinfo, SPAN.infoBoxGinfo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxGinfo_eof */
+/* infoboxGinfoAuthors */
+.infoBoxGinfoAuthors {
+  background: #333;
+}
+
+.infoBoxContentsGinfoAuthors {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeGinfoAuthors {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsGinfoAuthors {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingGinfoAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxGinfoAuthors, SPAN.infoBoxGinfoAuthors {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxGinfoAuthors_eof */
+/* infoboxInformation */
+.infoBoxInformation {
+  background: #333333;
+}
+
+.infoBoxContentsInformation {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeInformation {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsInformation {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingInformation {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxInformation, SPAN.infoBoxInformation {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxInformation_eof */
+/* infoboxLanguages */
+.infoBoxLanguages {
+  background: #ff9900;
+}
+
+.infoBoxContentsLanguages {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeLanguages {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsLanguages {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingLanguages {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxLanguages, SPAN.infoBoxLanguages {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxLanguages_eof */
+/* infoboxLinks */
+.infoBoxLinks {
+  background: #333;
+}
+
+.infoBoxContentsLinks {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeLinks {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsLinks {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingLinks {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxLinks, SPAN.infoBoxLinks {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxLinks_eof */
+/* infoboxLiveSupport */
+.infoBoxLiveSupport {
+  background: #666;
+}
+
+.infoBoxContentsLiveSupport {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeLiveSupport {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsLiveSupport {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingLiveSupport {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #666;
+  color: #CCC;
+}
+
+TD.infoBoxLiveSupport, SPAN.infoBoxLiveSupport {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxLiveSupport_eof */
+/* infoboxLatestNews */
+.infoBoxLatestNews {
+  background: #333;
+}
+
+.infoBoxContentsLatestNews {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeLatestNews {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsLatestNews {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingLatestNews {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxLatestNews, SPAN.infoBoxLatestNews {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxLatestNews_eof */
+/* infoboxLogin */
+.infoBoxLogin {
+  background: #ff9900;
+}
+
+.infoBoxContentsLogin {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeLogin {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsLogin {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingLogin {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxLogin, SPAN.infoBoxLogin {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxLogin_eof */
+/* infoboxManufacturerinfo */
+.infoBoxManufacturerinfo {
+  background: #ff9900;
+}
+
+.infoBoxContentsManufacturerinfo {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeManufacturerinfo {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsManufacturerinfo {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingManufacturerinfo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxManufacturerinfo, SPAN.infoBoxManufacturerinfo {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxManufacturerinfo_eof */
+/* infoboxManufacturers */
+.infoBoxManufacturers {
+  background: #333333;
+}
+
+.infoBoxContentsManufacturers {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeManufacturers {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsManufacturers {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingManufacturers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxManufacturers, SPAN.infoBoxManufacturers {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxManufacturers_eof */
+/* infoboxMyaccount */
+.infoBoxMyaccount {
+  background: #393;
+}
+
+.infoBoxContentsMyaccount {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeMyaccount {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsMyaccount {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingMyaccount {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxMyaccount, SPAN.infoBoxMyaccount {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxLogin_eof */
+/* infoboxOnliners */
+.infoBoxOnliners {
+  background: #333333;
+}
+
+.infoBoxContentsOnliners {
+  background: #CCCCCC;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeOnliners {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsOnliners {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingOnliners {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxOnliners, SPAN.infoBoxOnliners {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxOnliners_eof */
+/* infoboxOrderhistory */
+.infoBoxOrderhistory {
+  background: #ff9900;
+}
+
+.infoBoxContentsOrderhistory {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeOrderhistory {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsOrderhistory {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingOrderhistory {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxOrderhistory, SPAN.infoBoxOrderhistory {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxOrderhistory_eof */
+/* infoboxPayment */
+.infoBoxPayment {
+  background: #FF9900;
+}
+
+.infoBoxContentsPayment {
+  background: #FFF;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticePayment {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsPayment {
+  background: #FFF;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingPayment {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxPayment, SPAN.infoBoxPayment {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxPayment_eof */
+/* infoboxPolls */
+.infoBoxPolls {
+  background: #333;
+}
+
+.infoBoxContentsPolls {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticePolls {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsPolls {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingPolls {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff0000;
+}
+
+TD.infoBoxPolls, SPAN.infoBoxPolls {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxPolls_eof */
+/* infoboxProductnotifications */
+.infoBoxProductnotifications {
+  background: #ff9900;
+}
+
+.infoBoxContentsProductnotifications {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeProductnotifications {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsProductnotifications {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingProductnotifications {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxProductnotifications, SPAN.infoBoxProductnotifications {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxProductnotifications_eof */
+/* infobox_QRcode */
+.infoBoxQRcode {
+  background: #333;
+}
+
+.infoBoxContentsQRcode {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeQRcode {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsQRcode {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingQRcode {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxQRcode, SPAN.infoBoxQRcode {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infobox_QRcode_eof */
+/* infoboxRecentlyViewed */
+.infoBoxRecentlyViewed {
+  background: #333;
+}
+
+.infoBoxContentsRecentlyViewed {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeRecentlyViewed {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsRecentlyViewed {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingRecentlyViewed {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxRecentlyViewed, SPAN.infoBoxRecentlyViewed {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxRecentlyViewed_eof */
+/* infoboxReferences */
+.infoboxReferences {
+  background: #333;
+}
+
+.infoboxContentsReferences {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoboxNoticeReferences {
+  background: #FF8E90;
+}
+
+.infoboxNoticeContentsReferences {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoboxHeadingReferences {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoboxReferences, SPAN.infoboxReferences {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxReferences_eof */
+/* infoboxReviews */
+.infoBoxReviews {
+  background: #ff9900;
+}
+
+.infoBoxContentsReviews {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeReviews {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsReviews {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingReviews {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxReviews, SPAN.infoBoxReviews {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxReviews_eof */
+/* infoboxSearch */
+.infoBoxSearch {
+  background: #333333;
+}
+
+.infoBoxContentsSearch {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeSearch {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsSearch {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingSearch {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxSearch, SPAN.infoBoxSearch {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxSearch_eof */
+/* infoboxShipping */
+.infoBoxShipping {
+  background: #333333;
+}
+
+.infoBoxContentsShipping {
+  background: #FFF;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeShipping {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsShipping {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingShipping {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxShipping, SPAN.infoBoxShipping {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxShipping_eof */
+/* infoboxShopbypriceDrop */
+.infoBoxShopbypriceDrop {
+  background: #FF9900;
+}
+
+.infoBoxContentsShopbypriceDrop {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeShopbypriceDrop {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsShopbypriceDrop {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingShopbypriceDrop {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxShopbypriceDrop, SPAN.infoBoxShopbypriceDrop {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxShopbypriceDrop_eof */
+/* infoboxShopbypriceText */
+.infoBoxShopbypriceText {
+  background: #333;
+}
+
+.infoBoxContentsShopbypriceText {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeShopbypriceText {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsShopbypriceText {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingShopbypriceText {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxShopbypriceText, SPAN.infoBoxShopbypriceText {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxShopbypriceText_eof */
+/* infoboxShoppingcart */
+.infoBoxShoppingcart {
+  background: #ff9900;
+}
+
+.infoBoxContentsShoppingcart {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeShoppingcart {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsShoppingcart {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingShoppingcart {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxShoppingcart, SPAN.infoBoxShoppingcart {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxShoppingcart_eof */
+/* infoboxSpecials */
+.infoBoxSpecials {
+  background: #ff9900;
+}
+
+.infoBoxContentsSpecials {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeSpecials {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsSpecials {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingSpecials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxSpecials, SPAN.infoBoxSpecials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxSpecials_eof */
+/* infoboxScrollingSpecials */
+.infoBoxScrollingSpecials {
+  background: #ff9900;
+}
+
+.infoBoxContentsScrollingSpecials {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeScrollingSpecials {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsScrollingSpecials {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingScrollingSpecials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxScrollingSpecials, SPAN.infoBoxScrollingSpecials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+#pscroller1 {
+	height: 125px;
+	border: 0px;
+	padding: 5px;
+}
+
+#pscroller2{
+	width: 350px;
+	height: 20px;
+	border: 0px;
+	padding: 3px;
+}
+
+#pscroller2 a{
+	text-decoration: none;
+}
+
+.someclass {
+  	font-family: sans-serif;
+  	font-size: 11px;
+  	line-height: 1.5;
+}
+/* infoboxScrollingSpecials_eof */
+/* infoboxTagCloud */
+.infoBoxTagCloud {
+  background: #333333;
+}
+
+.infoBoxContentsTagCloud {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeTagCloud {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsTagCloud {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingTagCloud {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxTagCloud, SPAN.infoBoxTagCloud {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxTagCloud_eof */
+/* infoboxTellafriend */
+.infoBoxTellafriend {
+  background: #ff9900;
+}
+
+.infoBoxContentsTellafriend {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeTellafriend {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsTellafriend {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingTellafriend {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxTellafriend, SPAN.infoBoxTellafriend {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxTellafriend_eof */
+/* infoboxTestimonials */
+.infoBoxTestimonials {
+  background: #333;
+}
+
+.infoBoxContentsTestimonials {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeTestimonials {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsTestimonials {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingTestimonials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxTestimonials, SPAN.infoBoxTestimonials {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxTestimonials_eof */
+/* infoboxWhatsnew */
+.infoBoxWhatsnew {
+  background: #333333;
+}
+
+.infoBoxContentsWhatsnew {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeWhatsnew {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsWhatsnew {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingWhatsnew {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxWhatsnew, SPAN.infoBoxWhatsnew {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxWhatsnew_eof */
+/* infoboxScrollingWhatsnew */
+.infoBoxScrollingWhatsnew {
+  background: #333333;
+}
+
+.infoBoxContentsScrollingWhatsnew {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeScrollingWhatsnew {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsScrollingWhatsnew {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingScrollingWhatsnew {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxScrollingWhatsnew, SPAN.infoBoxScrollingWhatsnew {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+#pscroller_np {
+height: 110px;
+border: 0px;
+padding: 5px;
+}
+
+.pscroller_c_np {
+  font-family: sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+}
+/* infoboxScrollingWhatsnew_eof */
+/* infoboxWishlist */
+.infoBoxWishlist {
+  background: #333;
+}
+
+.infoBoxContentsWishlist {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeWishlist {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsWishlist {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingWishlist {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxWishlist, SPAN.infoBoxWishlist {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxWishlist_eof */
+/* infoboxYouTube */
+.infoBoxYouTube {
+  background: #333333;
+}
+
+.infoBoxContentsYouTube {
+  background: #f8f8f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNoticeYouTube {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContentsYouTube {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeadingYouTube {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #333;
+  color: #ff9900;
+}
+
+TD.infoBoxYouTube, SPAN.infoBoxYouTube {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* infoboxYouTube_eof */
+/* infobox image in cart */
+#header-basketDiv { 
+    position: relative;
+    width: 200px;
+    height:60px;
+    float:left;
+}
+
+#header-basketBox { 
+    position: relative;
+    width: 180px;
+    height:60px;
+    float:center;
+	background-image: url(../../../images/infobox/header_box_basket.png);
+}
+
+A.header-basket:link {
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10px;
+}
+A.header-basket:visited {
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10px;
+}
+A.header-basket:active {
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10px;
+}
+A.header-basket:hover {
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+#header-basketText { 
+    line-height:12px; 
+    font-family: Verdana, Arial, Helvetica, "Sans Serif", Tahoma;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 3px 0px 0px 6px;
+}
+/* infobox image in cart_eof */
+
