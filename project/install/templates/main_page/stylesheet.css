@@ -1,0 +1,188 @@
+/* $Id: /catalog/install/templates/main_page/stylesheet.css */
+
+body {
+  margin: 20px;
+  background: #f7f7f7;
+  font-family: Tahoma, Verdana, Arial;
+  line-height: 1.5;
+}
+
+#pageHeader {
+  background: #333;
+  border: 1px #333 solid;
+}
+
+#pageContent {
+  margin-top: 15px;
+}
+
+.pageFooter {
+  background: #333;
+  padding: 10px 0px 0px 0px;
+  clear: both;
+  text-align: center;
+  border: 1px #333 solid;
+}
+
+.footerBlock {
+  padding: 0px 0px 0px 0px;
+}
+
+.mainBlock {
+  background: #f7f7f7;
+  padding: 0px 0px 10px 0px;
+  text-align: center;
+  border: 1px #EA7500 solid;
+  font-size: 12px;
+  color: #666;  
+}
+
+.mainBlockcontents {
+	padding: 0px 10px 0px 10px;
+}
+
+.contentBlock {
+  padding: 15px 8px 15px 8px;
+}
+
+.infoPane {
+  float: left;
+  width: 250px;
+  background:#f7f7f7;
+  border:1px #333 solid;
+  margin-bottom: 10px;
+}
+
+.infoPaneContents {
+  padding: 0px 10px 10px 10px;
+  font-size: 11px;
+  color: #333;
+}
+
+.contentPane {
+  margin-left: 270px;
+  font-size: 12px;
+  color: #333;
+  border: 1px #333 solid;
+  background: #f7f7f7;  
+}
+
+.contentPanecontents {
+  padding: 0px 10px 2px 10px;
+}
+
+h1 {
+  font-size: 18px;
+  color: #666;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 16px;
+  color: #666;
+  margin-top: 0px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 12px;
+  color: #666;
+  margin-top: 0px;
+}
+
+h4 {
+  font-size: 11px;
+  color:#999;
+  margin-top: 0px;
+}
+
+h5 {
+  font-size: 10px;
+  color:#999;
+  margin-top: 0px;
+}
+
+.infoPane h3 {
+  background: #333;
+  color: #ea7500;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+}
+
+.contentPane h2 {
+  background: #333;
+  color: #ea7500;
+  text-align: center;
+  padding: 2px 10px 2px 10px;
+}
+
+.mainBlock h1 {
+  background: #EA7500;
+  color: #333;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+}
+
+.stepsBox {
+  float: right;
+  background: #333;
+  border: 1px #ea7500 solid;
+  padding: 10px 15px 10px 0px;
+  margin-right: 10px;
+}
+
+.stepsBox ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#mBox {
+  float: left;
+  clear: both;
+  margin-bottom: 10px;
+  visibility: hidden;
+  display: none;
+}
+
+#mBoxContents {
+  width: 240px;
+  background: #ffd6d3;
+  border: 1px #ff958c solid;
+  font-size: 11px;
+  padding: 2px 5px 2px 5px;
+}
+
+.noticeBox {
+  background: #FFD6D3;
+  border: 1px #FF958C solid;
+  padding: 10px;
+  text-align: center
+}
+
+#pageHeader A:link, #pageHeader A:visited { color: #999; text-decoration: none; }
+#pageHeader A:hover { color: #F60; text-decoration: none; }
+
+.inputForm {
+  background-color: #ea7500;
+  border: 1px #ea7500 solid;
+  margin-left: 15px;
+  width:auto;
+}
+
+.inputField {
+  font-weight: bold;
+  width: 40%;
+}
+
+.inputDescription {
+  background-color: #f5f7fc;
+  width: 60%;
+}
+
+input.text { font: 8pt verdana, arial, helvetica; color: #000000; width: 95%; }
+p {
+	color:#333;
+}
+A:link, A:visited { color: #666; text-decoration: none; }
+A:hover { color: #F60; text-decoration: underline; }
