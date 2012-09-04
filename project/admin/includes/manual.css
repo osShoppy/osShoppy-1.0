@@ -1,0 +1,327 @@
+/* $Id: /catalog/admin/includes/manual.css */
+
+body  {
+	font-family:Tahoma, Geneva, sans-serif;
+	background: #666666;
+	margin: 0; /* het is een goede gewoonte om de instellingen voor margin (marge) en padding (opvulling) van het element body op nul in te stellen en daarmee op de standaardinstellingen van de verschillende browsers */
+	padding: 0;
+	text-align: center; /* hiermee centreert u de container (het hoofdobject) in IE 5*-browsers Vervolgens wordt de tekst ingesteld op de standaardinstelling van links uitlijnen in de kiezer #container */
+	color: #000000;
+}
+.thrColLiqHdr #container { 
+	width: 90%;  /* hiermee maakt u een container (hoofdobject) met 80% van de breedte van de browser */
+	background: #FFFFFF;
+	margin: 10px auto; /* de automatische marges (d.m.v. auto), in combinatie met een breedte, centreren de pagina */
+	border: 1px solid #333;
+	text-align: left; /* hiermee wordt de instelling text-align: center voor het element body genegeerd. */
+} 
+.thrColLiqHdr #header { 
+	background: #F90; 
+	padding: 0px;  /* deze instelling voor padding (opvulling) komt overeen met de uitlijning links van de elementen binnen de div-elementen, die volgen op deze padding. Als een afbeelding wordt gebruikt in de #header in plaats van tekst, wilt u wellicht de padding (opvulling) verwijderen. */
+} 
+.thrColLiqHdr #header h1 {
+	color:#666;
+	margin: 0; /* door de marge van het laatste element in het element div voor #header op 0 in te stellen voorkomt u het wegvallen van marges – een onverklaarbare ruimte tussen div-elementen. Als om het element div een rand loopt, is dit niet nodig aangezien dit tevens het wegvallen van de marge voorkomt */
+	padding: 8 20 12 35; /* door het gebruik van padding (opvulling) in plaats van een marge (via het element margin) kunt u het element van de randen van het element div vandaan houden */
+}
+
+.thrColLiqHdr #header h2 {
+	margin: 0; /* door de marge van het laatste element in het element div voor #header op 0 in te stellen voorkomt u het wegvallen van marges – een onverklaarbare ruimte tussen div-elementen. Als om het element div een rand loopt, is dit niet nodig aangezien dit tevens het wegvallen van de marge voorkomt */
+	padding: 0; /* door het gebruik van padding (opvulling) in plaats van een marge (via het element margin) kunt u het element van de randen van het element div vandaan houden */
+}
+
+.thrColLiqHdr #headerlinks { 
+	background: #F90; 
+	padding: 0px;  /* deze instelling voor padding (opvulling) komt overeen met de uitlijning links van de elementen binnen de div-elementen, die volgen op deze padding. Als een afbeelding wordt gebruikt in de #header in plaats van tekst, wilt u wellicht de padding (opvulling) verwijderen. */
+} 
+.thrColLiqHdr #headerlinks h1 {
+	color:#FFF;
+	margin: 0; /* door de marge van het laatste element in het element div voor #header op 0 in te stellen voorkomt u het wegvallen van marges – een onverklaarbare ruimte tussen div-elementen. Als om het element div een rand loopt, is dit niet nodig aangezien dit tevens het wegvallen van de marge voorkomt */
+	padding: 0px 20px 3px 0px;
+	font-size:10px;
+	text-align:right;/* door het gebruik van padding (opvulling) in plaats van een marge (via het element margin) kunt u het element van de randen van het element div vandaan houden */
+}
+
+.thrColLiqHdr #headerlinks h2 {
+	margin: 0; /* door de marge van het laatste element in het element div voor #header op 0 in te stellen voorkomt u het wegvallen van marges – een onverklaarbare ruimte tussen div-elementen. Als om het element div een rand loopt, is dit niet nodig aangezien dit tevens het wegvallen van de marge voorkomt */
+	padding: 0; /* door het gebruik van padding (opvulling) in plaats van een marge (via het element margin) kunt u het element van de randen van het element div vandaan houden */
+}
+
+.thrColLiqHdr #container #headerlinks a {
+	color: #333;
+	font-size: 11px;
+}
+
+.thrColLiqHdr #container #headerlinks a:hover {
+	color: #fff;
+	font-size: 11px;
+	text-decoration:none;
+}
+
+/* Tips voor zijbalken:
+1. Aangezien we hier werken met percentages, verdient het voorkeur om voor de zijbalken geen padding te gebruiken. Deze wordt dan voor op standaards gebaseerde browsers toegevoegd aan de breedte, waardoor een nog onbekende daadwerkelijke breedte wordt gemaakt. 
+2. De ruimte tussen de zijkant van het element div en de elementen erbinnen kan worden gemaakt door het aanbrengen van een linker- en rechtermarge voor dergelijke elementen, zoals wordt aangetoond door de regel ".thrColLiqHdr #sidebar1 p".
+3. Aangezien Explorer breedten berekent nadat het bovenliggende element wordt weergegeven, stuit u met op percentage gebaseerde kolommen mogelijk af en toe op onverklaarbare bugs. Voor beter voorspelbare resultaten kunt u ervoor kiezen om over te schakelen op kolommen met pixelgrootte.
+*/
+.thrColLiqHdr #sidebar1 {
+	float: left; /* in de bronvolgorde moet dit element voorafgaan aan elk element waarnaast u het wilt positioneren */
+	width: 18%; /* aangezien dit een zwevend element betreft, moet er een breedte worden opgegeven */
+	background: #EBEBEB; /* de achtergrondkleur wordt weergegeven over de lengte van de inhoud in de kolom, maar niet verder */
+	padding: 5px 0; /* binnen dit element div maakt de padding (opvulling) aan de onder- en bovenkant de visuele ruimte  */
+	}
+
+.thrColLiqHdr #sidebar1 h1 {
+  font-size: 14px;
+  background: #333;
+  color: #EBEBEB;
+  margin-top: 0px;
+  padding: 3;
+  text-align: center;
+}
+
+.thrColLiqHdr #sidebar1 h2 {
+  font-size: 14px;
+  background: #333;
+  color: #999;
+  margin-top: 0px;
+  padding: 3;
+  text-align: center;
+}
+
+.thrColLiqHdr #container #sidebar1 a {
+	color: #999;
+	font-size: 12px;
+	font-weight:bold;
+	margin-left: 10px;
+}
+
+.thrColLiqHdr #container #sidebar1 a:hover {
+	color: #f90;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.thrColLiqHdr #container #sidebar1 a:active {
+	color: #F90;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.thrColLiqHdr #sidebar2 {
+	float: right; /* in de bronvolgorde moet dit element voorafgaan aan elk element waarnaast u het wilt positioneren */
+	width: 18%; /* aangezien dit een zwevend element betreft, moet er een breedte worden opgegeven */
+	background: #EBEBEB; /* de achtergrondkleur wordt weergegeven over de lengte van de inhoud in de kolom, maar niet verder */
+	padding: 5px 0; /* binnen dit element div maakt de padding (opvulling) aan de onder- en bovenkant de visuele ruimte */
+}
+
+.thrColLiqHdr #sidebar2 h1 {
+  font-size: 14px;
+  background: #333;
+  color: #F60;
+  margin-top: 0px;
+  padding: 3;
+  text-align: center;
+}
+
+.thrColLiqHdr #sidebar2 h2 {
+  font-size: 14px;
+  background: #333;
+  color: #999;
+  margin-top: 0px;
+  padding: 3;
+  text-align: center;
+}
+
+.thrColLiqHdr #container #sidebar2 a {
+	color: #666;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.thrColLiqHdr #container #sidebar2 a:hover {
+	color: #666;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.thrColLiqHdr #container #sidebar2 a:active {
+	color: #F60;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.thrColLiqHdr #sidebar1 p, .thrColLiqHdr #sidebar1 h3, .thrColLiqHdr #sidebar2 p, .thrColLiqHdr #sidebar2 h3 {
+	margin-left: 10px; /* de linker- en rechtermarge moeten aan elk element worden gegeven dat in de kolommen aan de zijkant wordt geplaatst */
+	margin-right: 10px;
+}
+
+/* Tips voor mainContent:
+1. de ruimte tussen mainContent en de zijbalken wordt gemaakt met de linker- en rechtermarge van het element div voor mainContent.
+2. om het wegvallen van het zwevende element te voorkomen bij een ondersteunde minimale resolutie van 800 x 600, dienen elementen binnen het element div voor mainContent 300 pixels of kleiner te zijn (dit geldt tevens voor afbeeldingen).
+3. in de onderstaande voorwaardelijke opmerking van Internet Explorer wordt de eigenschap zoom gebruikt om "hasLayout" mee te geven aan mainContent. Hiermee voorkomt men verschillende IE-specifieke bugs.
+*/
+.thrColLiqHdr #mainContent { 
+	margin: 0 20 0 20; /* de linker- en rechtermarge van dit element div maken de twee buitenste kolommen aan de zijkanten van de pagina. De kolomruimte blijft gehandhaafd, ongeacht de hoeveelheid inhoud die de div-elementen voor de zijbalken bevatten. U kunt deze marge verwijderen als u de tekst van het element div voor #mainContent de ruimten van de zijbalken wilt laten opvullen wanneer de inhoud in elke zijbalk eindigt. */
+    padding: 10px 200px 30px 200px;
+}
+
+.thrColLiqHdr #mainContent a {
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #666;
+	font-size: 12px;
+	font-weight:normal;
+}
+
+.thrColLiqHdr #mainContent a:hover {
+	color: #f90;
+	font-size: 12px;
+	text-decoration:none;
+}
+.thrColLiqHdr #footer { 
+	padding: 0px; /* deze instelling voor padding (opvulling) komt overeen met de uitlijning links van de elementen binnen de div-elementen, die voorafgaan aan deze padding. */
+	background:#DDDDDD;
+	text-align: center;
+} 
+.thrColLiqHdr #footer p {
+	margin: 0; /* door de marges van het eerste element in de footer (voettekst) in te stellen op 0 vermijdt u het risico dat de marge wegvalt – een ruimte tussen div-elementen */
+	padding: 3px 0px 0px 0px; /* door het gebruik van padding (opvulling) voor dit element maakt u ruimte (op dezelfde manier als door middel van een marge), zonder het probleem van wegvallende marges */
+}
+
+.thrColLiqHdr #footerlinks { 
+	padding: 5px; /* deze instelling voor padding (opvulling) komt overeen met de uitlijning links van de elementen binnen de div-elementen, die voorafgaan aan deze padding. */
+	background:#DDDDDD;
+	text-align: center;
+	margin: 0;
+} 
+.thrColLiqHdr #footerlinks h1 {
+	margin: 0; /* door de marge van het laatste element in het element div voor #header op 0 in te stellen voorkomt u het wegvallen van marges – een onverklaarbare ruimte tussen div-elementen. Als om het element div een rand loopt, is dit niet nodig aangezien dit tevens het wegvallen van de marge voorkomt */
+	padding: 0px 20px 3px 0px;
+	font-size:10px;
+	color:#F60;
+	/* door het gebruik van padding (opvulling) in plaats van een marge (via het element margin) kunt u het element van de randen van het element div vandaan houden */
+}
+
+.thrColLiqHdr #container #footerlinks a {
+	color: #333;
+	font-size: 10px;
+	font-weight:bold;
+}
+
+.thrColLiqHdr #container #footerlinks a:hover {
+	color: #f60;
+	font-size: 10px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.thrColLiqHdr #container #footerlinks a:active {
+	color: #F60;
+	font-size: 10px;
+	font-weight:bold;
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* dit exemplaar van class kan worden gebruikt om een element aan de rechterzijde van uw pagina te laten zweven. Het zwevende element moet voorafgaan aan het element dat, op de pagina, naast het zwevende element moet staan. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* dit exemplaar van class kan worden gebruikt om een element aan de linkerzijde van uw pagina te laten zweven. Het zwevende element moet voorafgaan aan het element dat, op de pagina, naast het zwevende element moet staan. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* dit exemplaar van class moet op een element div of break zijn geplaatst en dient het laatste element te zijn vóór de afsluiting van een container (hoofdobject) die op zijn beurt onderliggende zwevende objecten dient te bevatten */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+/* font-begin */
+p {
+  font-size: 12px;
+  margin-top: 0px;
+  color:#333;
+}
+
+p1 {
+  font-size: 12px;
+  margin-top: 0px;
+  color:#333;
+}
+h1 {
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 14px;
+  color: #666;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #e0e0e0;
+}
+
+h3 {
+  font-size: 12px;
+  color: #666;
+  margin-top: -3px;
+  text-align: center;
+  border-bottom: 1px solid #f60;
+}
+
+h4 {
+  font-size: 12px;
+  color:#999;
+  margin-top: 0px;
+  padding: 3px;
+}
+
+h5 {
+  font-size: 10px;
+  color:#999;
+  margin-top: 0px;
+}
+
+h6 {
+  font-size: 14px;
+  margin: 0 0 20 0;
+  border-bottom: 3px solid #e0e0e0;
+  text-align: center;
+  color:#f60;
+}
+h7 {
+  font-size: 11px;
+  color: #333;
+  margin-top: 0px;
+}
+
+h8 {
+  font-size: 10px;
+  color: #666;
+  text-align: left;
+  
+}
+/* font-end */
+
+.mainBlock {
+	margin:15px;
+	background-color: #EBEBEB;
+	border: 2px solid #333;
+	text-align:center;
+	color:#999;
+	font:Tahoma, Geneva, sans-serif;
+}
+
+.mainBlockheader {
+	background: #333;
+	padding: 5px;
+}
+
+.mainBlockcontents {
+	text-align:center;
+	color:#666;
+}
+	
