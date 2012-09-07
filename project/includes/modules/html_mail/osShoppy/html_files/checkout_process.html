@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>checkout_process</title>
+</head>
+
+<body>
+<table width="600" height="48" border="0" align="center" cellpadding="0" cellspacing="0"><tr valign="middle">
+	<td><img src="'. HTTP_SERVER . DIR_WS_CATALOG . DIR_WS_MODULES .'UHtmlEmails/'.ULTIMATE_HTML_EMAIL_LAYOUT.'/images/checkout_process/background_top.png" width="600" height="49" /></td>
+</tr></table>
+
+	<table width="600" border="0" align="center" background="'. HTTP_SERVER . DIR_WS_CATALOG . DIR_WS_MODULES .'UHtmlEmails/'.ULTIMATE_HTML_EMAIL_LAYOUT.'/images/checkout_process/background_mid.png" cellpadding="0" cellspacing="0">
+		<td width="20" align="center">&nbsp;</td>
+
+		<td>
+			<table width="100%" border="0" align="center">
+		  		<tr>
+		    		<td><font face="Tahoma, Times New Roman, Times"><span style="font-size:14px;"><span style="font-size: 24px;">'.UHE_TEXT_DEAR . ' ' . $order->customer['firstname'] . ' ' . $order->customer['insertion'] . ' ' . $order->customer['lastname'].',</span><br/>'.UHE_MESSAGE_GREETING.'</span></font></td>
+		  		</tr>
+			</table>
+			<table width="100%" border="0" align="center">
+		    	<td width="200"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;"><strong>'.UHE_TEXT_ORDER_NUMBER.'</strong></font></td>
+                <td><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">&nbsp;'.$insert_id.'</font></td>
+			</table>
+			<table width="100%" border="0" align="center">
+		    	<td width="200"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;"><strong>'.UHE_TEXT_INVOICE_URL.'</strong></font></td>
+                <td><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">&nbsp;<a href="' . tep_href_link(FILENAME_ACCOUNT_HISTORY_INFO, 'order_id=' . $insert_id, 'SSL', false) .'">' . tep_href_link(FILENAME_ACCOUNT_HISTORY_INFO, 'order_id=' . $insert_id, 'SSL', false) .'</a></font></td>
+			</table>
+			<table width="100%" border="0" align="center">
+		    	<td width="200"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;"><strong>'.UHE_TEXT_DATE_ORDERED.'</strong></font></td>
+                <td><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">&nbsp;'.strftime(DATE_FORMAT_LONG).'</font></td>
+			</table>
+			<table width="100%" border="0" align="center">
+		  		<tr>
+		    		<td><font face="Tahoma, Times New Roman, Times"><span style="font-size:14px;">';
+					if ($order->info['comments']) {// Add the customers order comments If the exists.
+		    		$html_email .= '<strong>'.UHE_TEXT_COMMENTS.'</strong><br />
+		    		<font face="Courier New, Courier, monospace" size="-1">'. str_replace($ArrayLNTargets, '<br />
+		    		', tep_db_output($order->info['comments'])) .'</font><br />
+		    		';
+		  		}
+		
+					//Now we will add a table containing the products of the order.
+					$html_email .=' <br />
+			        <strong>'.UHE_TEXT_ORDER_CONTENTS.'</strong><br />
+                    </span></font></td>
+		  		</tr>
+            </table>
+			<table width="100%" border="0" align="center">
+			<tr style="background-color:#666666; color:#FFFFFF; font-weight:bold;"> 
+				<td align="left" width="210"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'.UHE_TEXT_PRODUCTS_ARTICLE.'</font></td>
+				<td align="left" width="150"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'.UHE_TEXT_PRODUCTS_MODEL.'</font></td>
+				<td align="center" width="100"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'.UHE_TEXT_PRODUCTS_PRICE.'</font></td>
+				<td align="center" width="40"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'.UHE_TEXT_PRODUCTS_QTY.'</font></td>
+				<td align="right" width="100"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'.UHE_TEXT_PRODUCTS_TOTAL.'</font></td>
+			</tr>';
+			for ($i=0, $n=sizeof($order->products); $i<$n; $i++) {//Add one row for each product. The array $order exists already in checkout_process.php; to which we will include this file.
+			$html_email .='
+			<tr style="background-color:#DDDDDD;"> 
+				<td valign="top" align="left"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'.$order->products[$i]['name'] . $HTML_Email_product_attributes[$i].'</font></td>
+				<td valign="top" align="left"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'.$order->products[$i]['model'].'</font></td>
+				<td valign="top" align="center"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'.$currencies->display_price($order->products[$i]['final_price'], $order->products[$i]['tax'], 1).'</font></td>
+				<td valign="top" align="center"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'.$order->products[$i]['qty'].'</font></td>
+				<td valign="top" align="right"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'.$currencies->display_price($order->products[$i]['final_price'], $order->products[$i]['tax'], $order->products[$i]['qty']).'</font></td>
+			</tr>';
+			}
+		$html_email .='
+			</table>
+			<table width="100%" border="0" align="center">
+		  		<tr>
+		<br />
+		'.str_replace($ArrayLNTargets, '<br />', $HTMLEmailOrderTotals).'
+		<br />';
+		
+		if (is_object($$payment)) {
+			$html_email .= '<strong>'.UHE_TEXT_PAYMENT_METHOD . ': </strong>'. $order->info['payment_method'] . '<br />';
+    		$payment_class = $$payment;
+			if ($payment_class->email_footer) { 
+      			$html_email .=str_replace($ArrayLNTargets, '<br />', $payment_class->email_footer).'<br />';
+    		}else{
+				$html_email .= '<br />';
+			}
+  		}$html_email .=		  		'</tr>
+            </table>
+		<table style="font-size:14px; font-family:\'Tahoma, Times New Roman, Times\';" border="0" cellpadding="3" cellspacing="2">
+			<tr style="background-color:#666666; color:#FFFFFF; font-weight:bold;">';
+				if ($order->content_type != 'virtual') {
+					$html_email .= '<td width="160"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'. UHE_TEXT_DELIVERY_ADDRESS .'</font></td>';
+				}
+				$html_email .= '<td width="160"><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'. UHE_TEXT_BILLING_ADDRESS .'</font></td>
+			</tr>
+			<tr style="background-color:#DDDDDD;">';
+				if ($order->content_type != 'virtual') {
+					$html_email .= '<td><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'. tep_address_label($customer_id, $sendto, 0, '', '<br />') .'</font></td>';
+				}
+				$html_email .= '<td><font face="Tahoma, Times New Roman, Times" style="font-size:14px;">'. tep_address_label($customer_id, $billto, 0, '', '<br />') .'</font></td>
+			</tr>
+		</table>
+		';
+
+$html_email .= '
+
+		</td>
+
+		<td width="20" align="center">&nbsp;</td>
+</tr></table>
+
+<table width="600" height="20" border="0" align="center" background="'. HTTP_SERVER . DIR_WS_CATALOG . DIR_WS_MODULES .'UHtmlEmails/'.ULTIMATE_HTML_EMAIL_LAYOUT.'/images/checkout_process/background_bot.png" cellpadding="0" cellspacing="0"><tr valign="middle">
+	<td></td>
+</tr></table>
+
+</body>
+</html>

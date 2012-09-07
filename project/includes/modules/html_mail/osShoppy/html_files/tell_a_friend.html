@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>tell_a_friend</title>
+</head>
+
+<body><img src="'. HTTP_SERVER . DIR_WS_CATALOG . DIR_WS_MODULES .'UHtmlEmails/'.ULTIMATE_HTML_EMAIL_LAYOUT.'/images/pixel_trans.gif" />
+
+<table width="600" height="48" border="0" align="center" background="'. HTTP_SERVER . DIR_WS_CATALOG . DIR_WS_MODULES .'UHtmlEmails/'.ULTIMATE_HTML_EMAIL_LAYOUT.'/images/tell_a_friend/background_top.png" cellpadding="0" cellspacing="0"><tr valign="middle">
+	<td align="right"><a href="' . HTTP_SERVER . DIR_WS_CATALOG . '" style="text-decoration:none; color:black;"><color="black" style="margin-right:0.3em; text-decoration:none; color:black;">'.LINK_GO_TO_STORE.'</font></a></td>
+</tr></table>
+
+<table width="600" height="20" border="0" align="center" background="'. HTTP_SERVER . DIR_WS_CATALOG . DIR_WS_MODULES .'UHtmlEmails/'.ULTIMATE_HTML_EMAIL_LAYOUT.'/images/tell_a_friend/background_link_5.png" cellpadding="0" cellspacing="0"><tr valign="middle">
+<td width="120" align="center"><a href="' . HTTP_SERVER . DIR_WS_CATALOG . '" style="text-decoration:none; color:black;"><color="black" style="margin-left:0.3em; text-decoration:none; color:black;">'.LINK_CATALOG.'</font></a></td>
+<td width="120" align="center"><a href="' . HTTP_SERVER . DIR_WS_CATALOG . '" style="text-decoration:none; color:black;"><color="black" style="margin-left:0.3em; text-decoration:none; color:black;">'.LINK_SPECIALS.'</font></a></td>
+<td width="120" align="center"><a href="' . HTTP_SERVER . DIR_WS_CATALOG . '" style="text-decoration:none; color:black;"><color="black" style="margin-left:0.3em; text-decoration:none; color:black;">'.LINK_NEW_PRODUCTS.'</font></a></td>
+<td width="120" align="center"><a href="' . HTTP_SERVER . DIR_WS_CATALOG . '" style="text-decoration:none; color:black;"><color="black" style="margin-left:0.3em; text-decoration:none; color:black;">'.LINK_TESTIMONIALS.'</font></a></td>
+<td width="120" align="center"><a href="' . HTTP_SERVER . DIR_WS_CATALOG . '" style="text-decoration:none; color:black;"><color="black" style="margin-left:0.3em; text-decoration:none; color:black;">'.LINK_REGISTER.'</font></a></td>
+</tr> </table>
+
+<table width="600" border="0" align="center" background="'. HTTP_SERVER . DIR_WS_CATALOG . DIR_WS_MODULES .'UHtmlEmails/'.ULTIMATE_HTML_EMAIL_LAYOUT.'/images/tell_a_friend/background_mid.png" cellpadding="0" cellspacing="0"><tr valign="middle">
+		<td width="20" align="center">&nbsp;</td>
+
+		<td>
+			<table width="100%" border="0" align="center">
+		  		<tr>
+		    		<td><font face="Tahoma, Times New Roman, Times"><span style="font-size: 24px;">'. sprintf(UHE_GREET, $to_name) .'</span></span></font><p>'. sprintf(UHE_INTRO, $from_name, $product_info['products_name'], STORE_NAME).'</p></td>
+		  		</tr>
+		  		<tr>
+		    		<td><font face="Times New Roman, Times, serif"><span style="font-size:14px;">';
+
+				if (tep_not_null($message)) {// Add the comments If the exists.
+					$html_email .= '<strong>'.sprintf(UHE_TEXT_COMMENTS, $from_name).'</strong><br />
+					<font face="Courier New, Courier, monospace" size="-1">'. str_replace($ArrayLNTargets, '<br />
+					', $message) .'</font><br />
+					<br />
+					';
+				}
+
+				$html_email.= UHE_LINK . '<br />
+				<a href="' . tep_href_link(FILENAME_PRODUCT_INFO, 'products_id=' . $HTTP_GET_VARS['products_id'], 'NONSSL', false) . '">' . tep_href_link(FILENAME_PRODUCT_INFO, 'products_id=' . $HTTP_GET_VARS['products_id'], 'NONSSL', false) . '</a><br />
+				<br />
+				' . sprintf(UHE_SIGNATURE, STORE_NAME, HTTP_SERVER . DIR_WS_CATALOG).' </span></font></td>
+		  		</tr>
+			</table>
+		</td>
+
+		<td width="20" align="center">&nbsp;</td>
+</tr></table>
+
+<table width="600" height="20" border="0" align="center" background="'. HTTP_SERVER . DIR_WS_CATALOG . DIR_WS_MODULES .'UHtmlEmails/'.ULTIMATE_HTML_EMAIL_LAYOUT.'/images/tell_a_friend/background_bot.png" cellpadding="0" cellspacing="0"><tr valign="middle">
+	<td align="center"><font face="Tahoma, Times New Roman, Times"><span style="font-size: 9px;"><color="black" style="margin-right:0.3em; text-decoration:none; color:black;">'.LINK_COPYRIGHT.'</span></font></td>
+</tr></table>
+</body>
+</html>
