@@ -17,4 +17,6 @@ A complete shopping system based on osCommerce Rc2.2a build with more than hundr
 
 Check all the contributions at [osShoppy](http://extensions.osshoppy.com).
 
+Using this version of osShoppy is at own risk. There are to many bugs and security holes.
+
 For discussions check our [forum](http://forum.osshoppy.com).
