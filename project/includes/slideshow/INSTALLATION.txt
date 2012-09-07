@@ -1,0 +1,158 @@
+OVERVIEW + INFO + LINKS + SUPPORT
+see the README.TXT file
+
+
+INSTALLATION
+
+I have installed this in my RC2.2a STS store.
+
+Therefore, these instructions are for STS users.
+
+If you don't use STS, you could still install this in your index.php file, but you will need to modify the code accordingly (it's not hard! see the readme.txt file for links to the Author's site where there are a lot of different examples on how you can use this excellent application).
+
+
+
+
+***************************************************************
+
+K     I    S     S 
+
+Keep  It  Simple Stupid !
+
+**  BACK UP **  BACK UP **  BACK UP  **
+**  BACK UP **  BACK UP **  BACK UP  **
+**  BACK UP **  BACK UP **  BACK UP  **
+**  BACK UP **  BACK UP **  BACK UP  **
+**  BACK UP **  BACK UP **  BACK UP  **
+
+DATABASE AND SITE
+IF IT BREAKS SOMETHING AND YOU HAVE NO BACKUP, YOU ONLY HAVE YOURSELF TO BLAME
+
+
+***************************************************************
+
+
+
+
+1) 
+upload the "slideshow" folder to your server
+I recommend that you retain the name of this folder.
+I recommend you upload this to your "includes" folder.
+However, it's up to you... you will need to modify the paths in this file if you change the name of the folder, or you upload some place other than includes.
+
+
+2) 
+STS users:
+
+
+This first part of the code inserts the call to the scripts in the Head section - and also offers some variables for config - more on that on the Author's Website (see README.TXT).
+
+open you index template (I use this on the home page of my site, which has it's own template). 
+I have chosen to use hard links to the path files.  I tried using relative links and it didn't work for me.  It might work for you.....  but if you're not sure, just ust the examples below, replacing yoursite.com with whatever your actual URL is....
+
+
+
+in catalog/includes/sts_templates/sts_layout/index template 
+FIND:
+
+</head>
+
+
+ADD ABOVE
+
+
+<link rel="stylesheet" type="text/css" href="http://www.yoursite.com/includes/slideshow/css/slideshow.css" media="screen" />
+
+
+<script type="text/javascript" src="http://www.yoursite.com/includes/slideshow/js/mootools.js"></script>
+<script type="text/javascript" src="http://www.yoursite.com/includes/slideshow/js/slideshow.js"></script>
+	
+<script type="text/javascript">		
+	
+//<![CDATA[
+	  window.addEvent('domready', function(){
+	    var data = {
+	      '1.jpg': { caption: 'Volcano Asención in Ometepe, Nicaragua.' }, 
+	      '2.jpg': { caption: 'A Ceibu tree.' }, 
+	      '3.jpg': { caption: 'The view from Volcano Maderas.' }, 
+	      '4.jpg': { caption: 'Beer and ice cream.' }
+	    
+
+};
+	    var myShow = new Slideshow('show', data, { captions: true, controller: true, height: 300, hu: 'http://www.yoursite.com/includes/slideshow/images/', delay: 6000, titles: true, captions: true, thumbnails: true, width: 400 });
+	  });
+	//]]>
+
+</script>
+	
+
+
+
+
+This part of the code add the slideshow to the page.  The placement of this is up to you, but this is where I have placed it.
+
+
+in catalog/includes/sts_templates/sts_layout/index template 
+
+FIND:
+
+
+<table width="580" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+     <td>$content</td>
+
+
+
+
+
+ADD ABOVE IT:
+
+
+<!-- slideshow -->		
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+</tr>
+		  
+   <tr>
+    <td><div id="show" class="slideshow">
+      <div align="center">
+	  <a href="index.php?cPath=1"><img src="http://www.yoursite.com/includes/slideshow/images/1.jpg" alt="Volcano Asención in Ometepe, Nicaragua." border="0" width="400" height="300"/></a>
+	  
+	  </div>
+    </div>
+ 
+ </td>
+</tr>
+</table>
+<!-- slideshow end -->	
+
+
+
+Save and close
+**************	
+
+
+That's IT
+
+
+
+See the README.TXT file for all the links to see how you can vary this script (lots of variations available) and to the support site and Wikki etc....
+
+
+
+I hope this makes you happy as it did me :-)
+Hats off to Aeron (the Author)
+
+Cheers
+Sol
+www.purpledogdesign.com
+July 2009
+
+
+
+
+
+
+	
+
+
