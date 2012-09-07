@@ -1,0 +1,82 @@
+/*
+  $Id: new_products.php, v 1.00 2011/02/16 Harry Lee $
+
+  HORIZONTAL PRODUCT SCROLLER
+
+  Contribution based on:
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2003 osCommerce
+
+  Released under the GNU General Public License
+*/
+.scrollerHeader {
+  background: #FFF;
+  border-left: solid 1px #333;
+  border-right: solid 1px #333;
+}
+
+.scrollerContent {
+  background: #FFF;
+  border-left: solid 1px #333;
+  border-right: solid 1px #333;
+  border-bottom: solid 1px #333;
+}
+
+.scrollcontainer {
+position: relative;
+float: left;
+width: 760px;
+overflow: hidden;
+}
+.scrollbox { /* this holds all items */
+float: left;
+width: 75000px;  /* up to 500 items in 100 pages */
+overflow: hidden;
+}
+.scrollblock {
+position: relative;
+float: left;
+text-align:center;
+line-height:1.2em;
+width: 150px; height: 185px;
+padding:1px;
+overflow: hidden;
+}
+.scrollblock a {
+font-size: 11px;
+font-weight: 600;
+}
+.scrollblock_img, .scrollblock_price {
+position: absolute;
+left:0px; right:0px;
+}
+.scrollblock_img{
+padding: 2px 0;
+bottom:8.5em;
+}
+.scrollblock_price {
+font-size:11px; font-weight:600;
+line-height:1em;
+bottom:5.5em;
+}
+.scrollcnter, .scrollcnter a { /* page counter */
+font-family:Tahoma, Geneva, sans-serif;
+font-size:10px; font-weight:600;
+padding-right:1px;
+}
+a.scrollrestart {
+display:none;
+}
+.gor, .gol { /* buttons */
+cursor:pointer;
+border:none;
+}
+.gor { /* right button */
+visibility:visible;
+}
+.gol { /* left button */
+visibility:hidden;
+}

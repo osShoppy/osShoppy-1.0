@@ -1,0 +1,68 @@
+.tabcontent {
+	padding:2em; /* acts little ike cellpadding, so dont touch this */
+	clear:both;
+	background: #FFFFFF ;  /* Background color */
+	border-top:1px solid #333333;
+	border-bottom:1px solid #333333;
+    border-left:1px solid #333333;
+	border-right:1px solid #333333; 
+
+    color:#666666;      /* font color */
+	font-size: 12px;    /* font size -- does not affect standard view */
+  }
+#mainnavtabbed1{
+	clear:both;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+#mainnavtabbed1 li{
+	margin-left:0px; /* distance between tabs */
+	margin-bottom:0px;
+	text-align: center; /* alignment of text within tabs */
+	float:left;
+	width:7em; /* width of actual tab */
+	margin-bottom:0px;
+}
+
+/* this is the active tab class, just as below */
+#mainnavtabbed1 li a{
+	padding:5px; /* padding around the text within the tabs */
+	border-left:1px solid #333333; /* border of the inactive tab */
+	border-top:1px solid #333333; /* border of the inactive tab */
+	border-bottom:1px solid #333333;
+	border-right:1px solid #333333; /* border of the inactive tab */
+	background: #333;
+	display:block;
+	color:#aaaaaa;
+	text-decoration:none;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+
+/* the folowing section deals with the tabbed button when active */
+
+#mainnavtabbed1 li a.tabon,#mainnavtabbed1 li a.tabon:hover{
+	color:#FFFFFF;        /* Font color on tab */
+	background:#666666;   /* Tab Color */
+	border-left:1px solid #666666;
+	border-top:1px solid #666666;
+	border-bottom:1px solid #666666;
+	border-right:1px solid #666666;
+}
+
+/* the folowing section deals with the tabbed button when hovered */
+#mainnavtabbed1 li a:hover{
+	color:#FFFFFF;      /* Font color on hover */
+	background: #333333;
+	border-left:1px solid #333333;
+	border-top:1px solid #333333;
+	border-bottom:1px solid #333333;
+	border-right:1px solid #333333;
+}
+
+HR {
+	 color: #ccc;
+     background-color: #ccc;
+	 height: 1px;
+	 border: none;
+}
