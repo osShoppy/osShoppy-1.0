@@ -1,0 +1,5 @@
+<?php //$Id: /catalog/includes/languages/english/modules/order_total/ot_total.php
+
+  define('MODULE_ORDER_TOTAL_TOTAL_TITLE', 'Total');
+  define('MODULE_ORDER_TOTAL_TOTAL_DESCRIPTION', 'Order Total');
+?>

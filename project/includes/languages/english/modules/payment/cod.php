@@ -1,0 +1,5 @@
+<?php //$Id: /catalog/includes/languages/english/modules/payment/cod.php
+
+  define('MODULE_PAYMENT_COD_TEXT_TITLE', 'Cash on Delivery');
+  define('MODULE_PAYMENT_COD_TEXT_DESCRIPTION', 'Cash on Delivery');
+?>
