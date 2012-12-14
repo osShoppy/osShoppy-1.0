@@ -1,10 +1,10 @@
 <?php // $Id: /catalog/includes/application_top.php (osC)
 
 // define the project version
-  define('PROJECT_VERSION', 'osShoppy v2.0 Beta');
+  define('PROJECT_VERSION', 'osShoppy v1.0 Beta');
   define('PROJECT_VERSION_DATE', '26-12-2011');
-  define('NEXT_PROJECT_VERSION', 'osShoppy v2.0 Rc');
-  define('NEXT_PROJECT_VERSION_DATE', 'December 2012');
+  define('NEXT_PROJECT_VERSION', 'osShoppy v2.0 Beta');
+  define('NEXT_PROJECT_VERSION_DATE', 'December 2014');
 
 // start the timer for the page parse time log
   define('PAGE_PARSE_START_TIME', microtime());
