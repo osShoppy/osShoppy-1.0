@@ -1,6 +1,6 @@
 #osShoppy 1.0 Shopping System
 
-A complete shopping system based on osCommerce Rc2.2a build with more than hundred contributions like:
+A complete shopping system based on osCommerce v2.2 Rc2a build with more than hundred contributions like:
 
 	* seperate pricing per customer
 	* quantity price break for sppc
