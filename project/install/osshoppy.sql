@@ -2401,7 +2401,7 @@ CREATE TABLE zones_to_geo_zones (
 ### dumping data in tables ###
 ##############################
 # adress_book values #
-INSERT INTO address_book VALUES ('1','1','m','www.osshoppy.com','osShoppy','','Support','Supportstreet','123','a','','1234AB','Hilvy','','150','');
+INSERT INTO address_book VALUES ('1','1','m','www.osshoppy.com','osShoppy','from','Support','Supportstreet','123','a','','1234AB','Hilvy','','150','');
 
 # 1 - Default, 2 - USA, 3 - Spain, 4 - Singapore, 5 - Germany
 INSERT INTO address_format VALUES (1, '$firstname $insertion $lastname$cr$streets $street_no$street_no_add$cr$postcode, $city$cr$statecomma$country','$city / $country');
@@ -2411,7 +2411,7 @@ INSERT INTO address_format VALUES (4, '$firstname $insertion $lastname$cr$street
 INSERT INTO address_format VALUES (5, '$firstname $insertion $lastname$cr$streets $street_no$street_no_add$cr$postcode $city$cr$country','$city / $country');
 
 INSERT INTO admin VALUES (1, 1, 'Change', 'Password&amp;Name', 'change@mail.nl', 'd0f811158849b959e20a697668165e8e:05', now(), '0000-00-00 00:00:00', null, 0, 'ALL', '');
-INSERT INTO admin VALUES (2, 1, 'osShoppy', 'Support', 'support@osshoppy.com', 'bf834c5ea854a76764981eee7bdb410d:b7', now(), '0000-00-00 00:00:00', null, 0, 'ALL', '');
+INSERT INTO admin VALUES (2, 1, 'osShoppy', 'Support', 'support@osshoppy.com', 'bf834c5ea854a76764981eee7bdb410d:b7', now(), '2013-01-01 00:00:00', null, 0, 'ALL', '');
 
 INSERT INTO admin_groups VALUES (1, 'Top Administrator');
 INSERT INTO admin_groups VALUES (2, 'Mid Administrator');
@@ -6449,7 +6449,7 @@ INSERT INTO currencies VALUES (1,'Euro','EUR','€ ','','.',',','2','1.00000000', 
 INSERT INTO currencies VALUES (2,'US Dollar','USD','$','','.',',','2','1.29149997', now());
 
 # customers values #
-INSERT INTO customers VALUES (1,'m','osShoppy','','Support','2012-01-01 00:00:00','support@osshoppy.com','1','0650661042','','0a1f892dfe117df896452c1994f24d53:ca','0','This account is for support! You can delete this account or keep it when support is needed.','','','','1','');
+INSERT INTO customers VALUES (1,'m','osShoppy','from','Support','2013-01-01 00:00:00','support@osshoppy.com','1','0612345678','','0a1f892dfe117df896452c1994f24d53:ca','0','This account is for support! You can delete this account or keep it when support is needed.','','','','1','');
 # customers_info values #
 INSERT INTO customers_info VALUES ('1', null, '0', now(), null, '0', '0');
 
