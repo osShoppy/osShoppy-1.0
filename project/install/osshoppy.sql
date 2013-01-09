@@ -2401,17 +2401,17 @@ CREATE TABLE zones_to_geo_zones (
 ### dumping data in tables ###
 ##############################
 # adress_book values #
-INSERT INTO address_book VALUES ('1','1','m','www.hilvy.nl','Hilvy','','Support','Marconistraat ','116','a','','1223BX','Hilversum','','150','');
+INSERT INTO address_book VALUES ('1','1','m','www.osshoppy.com','osShoppy','','Support','Supportstreet','123','a','','1234AB','Hilvy','','150','');
 
 # 1 - Default, 2 - USA, 3 - Spain, 4 - Singapore, 5 - Germany
 INSERT INTO address_format VALUES (1, '$firstname $insertion $lastname$cr$streets $street_no$street_no_add$cr$postcode, $city$cr$statecomma$country','$city / $country');
-INSERT INTO address_format VALUES (2, '$firstname $insertion $lastname$cr$streets$cr$city, $state    $postcode$cr$country','$city, $state / $country');
-INSERT INTO address_format VALUES (3, '$firstname $insertion $lastname$cr$streets$cr$city$cr$postcode - $statecomma$country','$state / $country');
-INSERT INTO address_format VALUES (4, '$firstname $insertion $lastname$cr$streets$cr$city ($postcode)$cr$country', '$postcode / $country');
-INSERT INTO address_format VALUES (5, '$firstname $insertion $lastname$cr$streets$cr$postcode $city$cr$country','$city / $country');
+INSERT INTO address_format VALUES (2, '$firstname $insertion $lastname$cr$streets $street_no$street_no_add$cr$city, $state    $postcode$cr$country','$city, $state / $country');
+INSERT INTO address_format VALUES (3, '$firstname $insertion $lastname$cr$streets $street_no$street_no_add$cr$city$cr$postcode - $statecomma$country','$state / $country');
+INSERT INTO address_format VALUES (4, '$firstname $insertion $lastname$cr$streets $street_no$street_no_add$cr$city ($postcode)$cr$country', '$postcode / $country');
+INSERT INTO address_format VALUES (5, '$firstname $insertion $lastname$cr$streets $street_no$street_no_add$cr$postcode $city$cr$country','$city / $country');
 
 INSERT INTO admin VALUES (1, 1, 'Change', 'Password&amp;Name', 'change@mail.nl', 'd0f811158849b959e20a697668165e8e:05', now(), '0000-00-00 00:00:00', null, 0, 'ALL', '');
-INSERT INTO admin VALUES (2, 1, 'Hilvy', 'Support', 'support@hilvy.nl', 'bf834c5ea854a76764981eee7bdb410d:b7', now(), '0000-00-00 00:00:00', null, 0, 'ALL', '');
+INSERT INTO admin VALUES (2, 1, 'osShoppy', 'Support', 'support@osshoppy.com', 'bf834c5ea854a76764981eee7bdb410d:b7', now(), '0000-00-00 00:00:00', null, 0, 'ALL', '');
 
 INSERT INTO admin_groups VALUES (1, 'Top Administrator');
 INSERT INTO admin_groups VALUES (2, 'Mid Administrator');
