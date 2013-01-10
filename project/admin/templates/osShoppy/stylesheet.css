@@ -1,16 +1,37 @@
 /* //catalog/admin/templates/osShoppy/stylesheet.css (6440) */
 
+/* page */
+body { background-color: #F2F2F2; padding-top: 10px; color:#333 }
+.headerBar { background-color: #7bb804; }
+.headerBarContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ffffff; font-weight: bold; padding: 2px; }
+.columnLeft { background-color: #F0F1F1; border-color: #999999; border-width: 1px; border-style: solid; padding: 2px; }
+.pageHeading { font-family: Verdana, Arial, sans-serif; font-size: 16px; color: #666666; font-weight: bold; }
+
 .tableBody{
-	background-color:#CCCCCC;  
-	border:2px solid; 
+	background-color:#E8E8E8;  
+	border:2px solid;
 	border-color:#999;
+	border-radius: 15px;
 	padding:10px;
+	height:auto;
 }
 
 .headerBody{
 	background-color:#ccc;
+	border:2px solid;
+	border-color:#333;
+	border-radius: 15px;
+	padding: 5px;
 }
 
+.indexBody{
+	background-color: #999;  
+	border:2px solid;
+	border-color:#333;
+	border-radius: 15px;
+	padding:10px;
+	height:auto;
+}
 /* links */
 a:link { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #333333;  font-weight:bold;  text-decoration: none; }
 a:visited { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #333333;  font-weight:bold; text-decoration: none; }
@@ -41,12 +62,6 @@ a.splitPageLink:hover { font-family: Verdana, Arial, sans-serif; font-size: 10px
 .menuBoxHeading { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #616060; background-color: #ffffff; }
 .menuBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #616060; }
 
-/* page */
-body { background-color: #ff9900; margin-top: 10px; color:#333 }
-.headerBar { background-color: #7bb804; }
-.headerBarContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ffffff; font-weight: bold; padding: 2px; }
-.columnLeft { background-color: #F0F1F1; border-color: #999999; border-width: 1px; border-style: solid; padding: 2px; }
-.pageHeading { font-family: Verdana, Arial, sans-serif; font-size: 16px; color: #666666; font-weight: bold; }
 
 /* data table */
 .dataTableHeadingRow { background-color: #3D464E; background-image:url(images/chromebg_5.gif); height:24px; }
