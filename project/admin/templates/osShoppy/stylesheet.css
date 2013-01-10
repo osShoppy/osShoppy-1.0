@@ -11,6 +11,7 @@ body { background-color: #F2F2F2; padding-top: 10px; color:#333 }
 	background-color:#E8E8E8;  
 	border:2px solid;
 	border-color:#999;
+	-moz-border-radius: 15px; /* firefox */
 	border-radius: 15px;
 	padding:10px;
 	height:auto;
@@ -20,6 +21,7 @@ body { background-color: #F2F2F2; padding-top: 10px; color:#333 }
 	background-color:#ccc;
 	border:2px solid;
 	border-color:#333;
+	-moz-border-radius: 15px; /* firefox */
 	border-radius: 15px;
 	padding: 5px;
 }
@@ -28,6 +30,7 @@ body { background-color: #F2F2F2; padding-top: 10px; color:#333 }
 	background-color: #999;  
 	border:2px solid;
 	border-color:#333;
+	-moz-border-radius: 15px; /* firefox */
 	border-radius: 15px;
 	padding:10px;
 	height:auto;
