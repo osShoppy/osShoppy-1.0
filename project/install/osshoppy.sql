@@ -2411,7 +2411,7 @@ INSERT INTO address_format VALUES (4, '$firstname $insertion $lastname$cr$street
 INSERT INTO address_format VALUES (5, '$firstname $insertion $lastname$cr$streets $street_no$street_no_add$cr$postcode $city$cr$country','$city / $country');
 
 INSERT INTO admin VALUES (1, 1, 'Change', 'Password&amp;Name', 'change@mail.nl', 'd0f811158849b959e20a697668165e8e:05', now(), '0000-00-00 00:00:00', null, 0, 'ALL', '');
-INSERT INTO admin VALUES (2, 1, 'osShoppy', 'Support', 'support@osshoppy.com', 'bf834c5ea854a76764981eee7bdb410d:b7', now(), '2013-01-01 00:00:00', null, 0, 'ALL', '');
+INSERT INTO admin VALUES (2, 1, 'osShoppy', 'Support', 'support@osshoppy.com', 'bf834c5ea854a76764981eee7bdb410d:b7', now(), '0000-00-00 00:00:00', null, 0, 'ALL', '');
 
 INSERT INTO admin_groups VALUES (1, 'Top Administrator');
 INSERT INTO admin_groups VALUES (2, 'Mid Administrator');

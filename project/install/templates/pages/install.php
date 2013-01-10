@@ -22,7 +22,7 @@
 
           setTimeout("document.getElementById('installForm').submit();", 2000);
         } else {
-          document.getElementById('mBoxContents').innerHTML = '<p><img src="images/failed.gif" align="right" hspace="5" vspace="5" border="0" /><center>Er was een probleem met het importeren <br>van de database.<br><br><font color=red><b>Controleer volgende ERRORS!</font></b></p><p><b>%s</b></p><p>Controleer de connectie parameters <br>en probeer het nogmaals!</center></p>'.replace('%s', result[1]);
+          document.getElementById('mBoxContents').innerHTML = '<p><img src="images/failed.gif" align="right" hspace="5" vspace="5" border="0" /><center>Er was een probleem met het importeren <br>van de database.<br><br><font color=red><b>Controleer volgende ERRORS !</font></b></p><p><b>%s</b></p><p>Controleer de connectie parameters <br>en probeer het nogmaals!</center></p>'.replace('%s', result[1]);
         }
       }
 
@@ -89,7 +89,7 @@
   <p>In deze eerste stap zal de SQL file in uw aangemaakte database ge&iuml;mporteerd worden.<br />
   Vul hieronder de aangemaakte database gegevens in.<br /><br />
   Volg de instructies op het scherm die u verder zullen helpen met de installatie van database server, <br />installeer voorbeeld data, webserver en winkel instellingen opties.<br /><br /> 
-  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://www.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b></p>
+  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://www.docs.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b></p>
 </div>
 
 <div class="contentBlock">

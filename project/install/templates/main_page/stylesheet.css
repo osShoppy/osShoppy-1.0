@@ -175,6 +175,11 @@ h5 {
   width: 40%;
 }
 
+.inputField2 {
+  font-weight: bold;
+  width: 50%;
+}
+
 .inputDescription {
   background-color: #f5f7fc;
   width: 60%;

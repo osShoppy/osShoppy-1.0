@@ -1,7 +1,7 @@
 <?php //$Id: catalog/install/includes/application.php
 
 // define the project version
-  define('PROJECT_VERSION', 'osShoppy v2.0 Beta');
+  define('PROJECT_VERSION', 'osShoppy v1.0');
 // set the level of error reporting
   error_reporting(E_ALL & ~E_NOTICE);
   require('includes/functions/compatibility.php');
