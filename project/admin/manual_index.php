@@ -14,6 +14,9 @@
 <!-- header //-->
 <?php require(DIR_WS_INCLUDES . 'manual_header.php'); ?>
 <!-- header_eof //-->
+<!-- header_menu //-->
+<?php require(DIR_WS_INCLUDES . 'manual_header_menu.php'); ?>
+<!-- header_menu_eof //-->
 
 <!-- body //-->
 <table border="0" width="100%" cellspacing="2" cellpadding="2"><td align="center">
