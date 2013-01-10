@@ -917,7 +917,7 @@ define('TEXT_ERROR', '<span class="errorText">* fout</span>');
 
 // project errors
 define('ERROR_TEP_MAIL', '<font face="Verdana, Arial" size="2" color="#ff0000"><b><small>TEP ERROR:</small> Kan geen email versturen met de huidige SMTP Server. Bekijk aub uw PHP.ini en verander het zo dat ik dat wel kan.</b></font>');
-define('WARNING_INSTALL_DIRECTORY_EXISTS', '<font color=red><b>Opgelet!</b></font> De instalatie map is nog aanwezig.&nbsp;&nbsp; Locatie: ' . dirname($HTTP_SERVER_VARS['SCRIPT_FILENAME']) . '/install. <br><center><b>Verwijder deze map nu van de server!</center></b>');
+define('WARNING_INSTALL_DIRECTORY_EXISTS', '<font color=red><b>Opgelet!</b></font> De installatie map is nog aanwezig.&nbsp;&nbsp; Locatie: ' . dirname($HTTP_SERVER_VARS['SCRIPT_FILENAME']) . '/install. <br><center><b>Verwijder deze map nu van de server!</center></b>');
 define('WARNING_CONFIG_FILE_WRITEABLE', '<font color=red><b>Opgelet!</b></font> De configure.php file(s) zijn nog beschrijfbaar.&nbsp;&nbsp; Locatie: ' . dirname($HTTP_SERVER_VARS['SCRIPT_FILENAME']) . '/includes/configure.php. <br><center><b>Verander nu de bestandsrechten naar "alleen lezen" (644)!</center></b>');
 define('WARNING_SESSION_DIRECTORY_NON_EXISTENT', '<font color=red><b>Opgelet!</b></font> De sessie map bestaat niet: ' . tep_session_save_path() . '. Sessie zullen pas gaan werken wanner u deze map aanmaakt.');
 define('WARNING_SESSION_DIRECTORY_NOT_WRITEABLE', '<font color=red><b>Opgelet!</b></font> Ik kan niet in de sessie map schrijven: ' . tep_session_save_path() . '. Sessie zullen niet werken zolang u dit niet veranderd.');
