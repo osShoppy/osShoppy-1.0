@@ -370,4 +370,3 @@ if ($messageStack->size > 0) {
         <td><?php echo tep_draw_separator('pixel_trans.gif', '1', '10'); ?></td>
       </tr>
 	</table>
-</table>
