@@ -123,4 +123,116 @@ html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
     <td width="24" align="center" valign="top" class="date"><?php echo PROJECT_VERSION ?><br /><br /><?php echo PROJECT_VERSION_UPDATE ?><br /><?php echo '<a href="http://support.osshoppy.com" target="_new"><img src="http://osshoppy.com/index/images/updates/update_status.png" border="0" alt="" width="110" height="30"></a>'; ?></td>
   </tr> 
 </table>
+<div id="smoothmenu1" class="ddsmoothmenu">
+<ul>
+
+<li><div class="line"><a href="#"><?php echo BOX_HEADING_ADMIN_TOP ?></a></div>
+  <ul>
+  <?php   if (tep_admin_check_boxes('administrator_top.php') == true) {
+   require(DIR_WS_BOXES . 'administrator_top.php');
+  }
+  ?>
+  </ul>
+</li>
+
+<li><div class="line"><a  href="#" ><?php echo BOX_HEADING_ADMIN_MID ?></a></div>
+  <ul>
+  <?php   if (tep_admin_check_boxes('administrator_mid.php') == true) {
+    require(DIR_WS_BOXES . 'administrator_mid.php');
+  }
+  ?>
+  </ul>
+</li>
+
+<li><div class="line"><a  href="#" ><?php echo BOX_HEADING_ADMIN_LOW ?></a></div>
+  <ul>
+  <?php   if (tep_admin_check_boxes('administrator_low.php') == true) {
+    require(DIR_WS_BOXES . 'administrator_low.php');
+  }
+  ?>
+  </ul>
+</li>
+
+<li><div class="line"><a href="#"><?php echo BOX_HEADING_CATALOG ?></a></div>
+  <ul>
+  <?php if (tep_admin_check_boxes('catalog.php') == true) {
+    require(DIR_WS_BOXES . 'catalog.php');
+  }
+  ?>
+  </ul>
+</li>
+
+<li><div class="line"><a  href="#"><?php echo BOX_HEADING_CUSTOMERS ?></a></div>
+  <ul>
+  <?php  if (tep_admin_check_boxes('customers.php') == true) {
+    require(DIR_WS_BOXES . 'customers.php');
+  }
+  ?>
+  </ul>
+</li>
+
+<li><div class="line"><a  href="#"><?php echo BOX_HEADING_TOOLS ?></a></div>
+  <ul>
+  <?php  if (tep_admin_check_boxes('tools.php') == true) {
+    require(DIR_WS_BOXES . 'tools.php');
+  }?>
+  </ul>
+</li>
+
+<li><div class="line"><a  href="#" ><?php echo BOX_HEADING_MODULES ?></a></div>
+  <ul>
+ <?php  if (tep_admin_check_boxes('modules.php') == true) {
+    require(DIR_WS_BOXES . 'modules.php');
+  }
+  ?>
+  </ul>
+</li>
+
+<li><div class="line"><a  href="#" ><?php echo BOX_HEADING_CHECKOUT ?></a></div>
+  <ul>
+ <?php  if (tep_admin_check_boxes('checkout.php') == true) {
+    require(DIR_WS_BOXES . 'checkout.php');
+  }
+  ?>
+  </ul>
+</li>
+
+<li><div class="line"><a  href="#" ><?php echo BOX_HEADING_REPORTS ?></a></div>
+  <ul>
+  <?php if (tep_admin_check_boxes('reports.php') == true) {
+    require(DIR_WS_BOXES . 'reports.php');
+  }?>
+  </ul>
+</li>
+
+<li><div class="line"><a  href="#" ><?php echo BOX_HEADING_LOCATION_AND_TAXES ?></a></div>
+  <ul>
+  <?php if (tep_admin_check_boxes('taxes.php') == true) {
+    require(DIR_WS_BOXES . 'taxes.php');
+  }
+  ?>
+  </ul>
+</li>
+
+<li><div class="line"><a  href="#" ><?php echo BOX_HEADING_LOCALIZATION ?></a></div>
+  <ul>
+  <?php if (tep_admin_check_boxes('localization.php') == true) {
+    require(DIR_WS_BOXES . 'localization.php');
+  }
+  ?>
+  </ul>
+</li>
+
+<li><div class="line"><a  href="#" ><?php echo BOX_HEADING_SUPPORT ?></a></div>
+  <ul>
+ <?php  if (tep_admin_check_boxes('support.php') == true) {
+    require(DIR_WS_BOXES . 'support.php');
+  }
+  ?>
+  </ul>
+</li>
+
+</ul>
+<br style="clear: left" />
+</div>
 

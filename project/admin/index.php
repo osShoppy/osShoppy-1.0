@@ -14,9 +14,6 @@
 <!-- header //-->
 <?php require(DIR_WS_INCLUDES . 'header.php'); ?>
 <!-- header_eof //-->
-<!-- header_menu //-->
-<?php require(DIR_WS_INCLUDES . 'header_menu.php'); ?>
-<!-- header_menu_eof //-->
 <!-- index_body //-->
 <?php
 	  if(DISPLAY_INDEX_PAGE == 'categories') { 
@@ -39,7 +36,6 @@
 <!-- footer //-->
 <?php require(DIR_WS_INCLUDES . 'footer.php'); ?>
 <!-- footer_eof //-->
-<br>
 </body>
 </html>
 <?php require(DIR_WS_INCLUDES . 'application_bottom.php'); ?>
