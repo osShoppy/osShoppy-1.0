@@ -1,7 +1,13 @@
 /* //catalog/admin/templates/osShoppy/stylesheet.css (6440) */
 
 /* page */
-body { background-color: #F2F2F2; padding-top: 10px; color:#333 }
+body { 
+	background-color: #F2F2F2; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#333;
+	}
+	
 .headerBar { background-color: #7bb804; }
 .headerBarContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ffffff; font-weight: bold; padding: 2px; }
 .columnLeft { background-color: #F0F1F1; border-color: #999999; border-width: 1px; border-style: solid; padding: 2px; }
@@ -23,7 +29,7 @@ body { background-color: #F2F2F2; padding-top: 10px; color:#333 }
 	border-color:#333;
 	-moz-border-radius: 15px; /* firefox */
 	border-radius: 15px;
-	padding: 5px;
+	padding: 10px;
 }
 
 .indexBody{
@@ -35,6 +41,18 @@ body { background-color: #F2F2F2; padding-top: 10px; color:#333 }
 	padding:10px;
 	height:auto;
 }
+
+.indexFooter{
+	background-color: #ccc;  
+	border:2px solid;
+	border-color:#333;
+	-moz-border-radius: 15px; /* firefox */
+	border-radius: 15px;
+	margin-top: 10px;
+	padding: 5px;
+	width:80%;
+}
+
 /* links */
 a:link { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #333333;  font-weight:bold;  text-decoration: none; }
 a:visited { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #333333;  font-weight:bold; text-decoration: none; }
