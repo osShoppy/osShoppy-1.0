@@ -1,7 +1,5 @@
 <?php //$Id: /catalog/admin/index.php (osS)
-
   require('includes/application_top.php');
-
 ?>
 <!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html <?php echo HTML_PARAMS; ?>>
@@ -17,21 +15,20 @@
 <!-- index_body //-->
 <?php
 	  if(DISPLAY_INDEX_PAGE == 'categories') { 
-		require(DIR_WS_INCLUDES . 'index/index_categories.php');	  }
+		require(DIR_WS_INCLUDES . 'index/index_categories.php');}
 	  if(DISPLAY_INDEX_PAGE == 'customers') { 
-		require(DIR_WS_INCLUDES . 'index/index_customers.php');	  }
+		require(DIR_WS_INCLUDES . 'index/index_customers.php');}
 	  if(DISPLAY_INDEX_PAGE == 'default') { 
-		require(DIR_WS_INCLUDES . 'index/index_default.php');	  }
+		require(DIR_WS_INCLUDES . 'index/index_default.php');}
 	  if(DISPLAY_INDEX_PAGE == 'links') { 
-		require(DIR_WS_INCLUDES . 'index/index_links.php');	  }
+		require(DIR_WS_INCLUDES . 'index/index_links.php');}
 	  if(DISPLAY_INDEX_PAGE == 'orders') { 
-		require(DIR_WS_INCLUDES . 'index/index_orders.php');	  }
+		require(DIR_WS_INCLUDES . 'index/index_orders.php');}
 	  if(DISPLAY_INDEX_PAGE == 'stats') { 
-		require(DIR_WS_INCLUDES . 'index/index_stats.php');	  }
+		require(DIR_WS_INCLUDES . 'index/index_stats.php');}
 	  if(DISPLAY_INDEX_PAGE == 'ultimate') { 
-		require(DIR_WS_INCLUDES . 'index/index_ultimate.php');	  }
+		require(DIR_WS_INCLUDES . 'index/index_ultimate.php');}
 ?>
-
 <!-- index_body_eof //-->
 <!-- footer //-->
 <?php require(DIR_WS_INCLUDES . 'footer.php'); ?>
