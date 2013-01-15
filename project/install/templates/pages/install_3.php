@@ -48,7 +48,7 @@
         							 <small>(10 producten)</small></td>
       </tr>
       <tr>
-        <td class="inputField" align="center"><a href="sampla_data_computer.php"><img src="images/button_install_sample_data.png" border="0" alt="Stop Installatie" /></td>
+        <td class="inputField" align="center"><a href="sample_data_computer.php"><img src="images/button_install_sample_data.png" border="0" alt="Stop Installatie" /></td>
         <td class="inputDescription">Voorbeeld Data van Computers<br />
         							 <small>(20 producten)</small></td>
       </tr>
