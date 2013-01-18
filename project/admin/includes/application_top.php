@@ -1,5 +1,8 @@
 <?php //$Id: /catalog/admin/includes/application_top.php (osC)
 
+// Define the project version
+  define('PROJECT_VERSION', 'osShoppy&nbsp;v1.0&nbsp;Beta');
+
 // Start the clock for the page parse time log
   define('PAGE_PARSE_START_TIME', microtime());
 

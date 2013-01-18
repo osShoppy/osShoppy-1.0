@@ -109,7 +109,7 @@ html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
 	}
 // EOF-A: Administration Acces Level Accounts /Step-1(1)\
 	?>
-    <td width="24" align="center" valign="top" class="date"><?php echo PROJECT_VERSION ?><br /><br /><?php echo PROJECT_VERSION_UPDATE ?><br /><?php echo '<a href="http://support.osshoppy.com" target="_new"><img src="http://osshoppy.com/index/images/updates/update_status.png" border="0" alt="" width="110" height="30"></a>'; ?></td>
+    <td width="24" align="center" valign="top" class="date"><?php echo PROJECT_VERSION_CURRENT ?><br /><?php echo PROJECT_VERSION ?><br /><br /><?php echo PROJECT_VERSION_UPDATE ?><br /><?php echo '<a href="http://support.osshoppy.com" target="_new"><img src="http://osshoppy.com/index/images/updates/update_status.png" border="0" alt="" width="110" height="30"></a>'; ?></td>
   </tr> 
 </table>
 <div id="smoothmenu1" class="ddsmoothmenu">

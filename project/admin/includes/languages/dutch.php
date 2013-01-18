@@ -1,7 +1,7 @@
 <?php //$Id: /catalog/admin/includes/languages/dutch.php (osC)
 
 // Define the project version
-  define('PROJECT_VERSION', 'Huidige Versie:<br>osShoppy&nbsp;v2.0&nbsp;Beta');
+  define('PROJECT_VERSION_CURRENT', 'Huidige Versie:');
   define('PROJECT_VERSION_UPDATE', 'Update Beschikbaar:');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
