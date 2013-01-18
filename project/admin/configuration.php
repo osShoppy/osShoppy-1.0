@@ -82,12 +82,12 @@ $gID = (isset($HTTP_GET_VARS['gID'])) ? $HTTP_GET_VARS['gID'] : 1;
 <!-- header_eof //-->
 
 <!-- body //-->
-<table border="0" width="100%" cellspacing="2" cellpadding="2">
+<table border="0" width="99%" cellspacing="2" cellpadding="2" align="center">
   <tr>
 <!-- body_text //-->
     <td width="100%" valign="top"><table border="0" width="100%" cellspacing="0" cellpadding="2">
       <tr>
-        <td><table border="0" width="100%" cellspacing="0" cellpadding="0">
+        <td><table border="0" width="100%" cellspacing="0" cellpadding="0" class="contentHeading">
           <tr>
             <td class="pageHeading"><?php echo $cfg_group['configuration_group_title']; ?></td>
             <td class="pageHeading"><?php echo $cfga_group['configuration_group_title']; ?></td>
@@ -100,7 +100,7 @@ $gID = (isset($HTTP_GET_VARS['gID'])) ? $HTTP_GET_VARS['gID'] : 1;
         </table></td>
       </tr>
       <tr>
-        <td><table border="0" width="100%" cellspacing="0" cellpadding="0">
+        <td><table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
           <tr>
             <td valign="top"><table border="0" width="100%" cellspacing="0" cellpadding="2">
               <tr class="dataTableHeadingRow">
@@ -195,7 +195,6 @@ $gID = (isset($HTTP_GET_VARS['gID'])) ? $HTTP_GET_VARS['gID'] : 1;
     </table></td>
 <!-- body_text_eof //-->
   </tr>
-</table>
 <!-- body_eof //-->
 
 <!-- footer //-->
