@@ -11,11 +11,10 @@
   <h1>Welkom bij het installatie proces van <?php echo PROJECT_VERSION ?></h1>
 <div class="mainBlockcontents">
 <p>Met <?php echo PROJECT_VERSION ?> kunt u producten verkopen in uw eigen online webwinkel.</p>
-  <p>Het overzichtelijke administratie paneel zorgt voor makkelijk en snel artikelen toevoegen, aanpassen of verwijderen.<br />
+  <p>Het overzichtelijke administratie paneel zorgt voor makkelijk en snel producten toevoegen, aanpassen of verwijderen.<br />
    Het bijhouden van klanten, bestellingen, nieuwsbrieven, enquetes, downloads, klantengroepen, support tickets en nog veel meer zijn makkelijk te configureren.<br />
    Met de aanwezige handleiding in het administratie paneel kunt u snel van alle functies en mogelijkheden hun werking bekijken.
    </p>
-  <p><b>Het <?php echo PROJECT_VERSION ?> E-commerce Systeem draait het beste met een osShoppy Webhosting pakket van <a href="http://www.hilvy.nl" target="_blank"><u>Hilvy</u></a>. </b></p>
 </div>
 </div>
 
@@ -203,9 +202,9 @@
   } else {
 ?>
 
-    <br /><p><center><b>De webserver omgeving is geverifieerd en is klaar om met een nieuwe installatie en configuratie van <?php echo PROJECT_VERSION ?> te beginnen.</b></center><br />
-    In vijf stappen wordt u door de installatie procedure geleid. Deze procedure zal niet langer dan tien minuten van uw tijd in beslag nemen.
-    Na installatie kunt u meteen aan de slag met het configureren en toevoegen van artikelen en producten in uw eigen online webwinkel!<br /></p>
+    <br /><p><center><b>De webserver omgeving is geverifieerd en is klaar om met een nieuwe installatie en configuratie van <?php echo PROJECT_VERSION ?> te beginnen.</b><br /><br />
+    In vijf stappen wordt u door de installatie procedure geleid. <br />Deze procedure zal niet langer dan tien minuten van uw tijd in beslag nemen.<br />
+    Na installatie kunt u meteen aan de slag met het configureren en het <br />toevoegen van producten in uw eigen online webwinkel!<br /></center></p>
     <p><br /><b>Druk op Start om de installatie procedure te beginnen.</b></p>
     <p align="right"><a href="install.php"><img src="images/button_start.png" border="0" alt="Start Installatie" /></a></p><BR />
 
