@@ -5,11 +5,15 @@ body {
   background: #f7f7f7;
   font-family: Tahoma, Verdana, Arial;
   line-height: 1.5;
+  border: 1px #333 solid;
+  border-radius: 8px;
+  padding: 8px;
 }
 
 #pageHeader {
   background: #333;
   border: 1px #333 solid;
+  border-radius: 8px;
 }
 
 #pageContent {
@@ -22,6 +26,7 @@ body {
   clear: both;
   text-align: center;
   border: 1px #333 solid;
+  border-radius: 8px;
 }
 
 .footerBlock {
@@ -32,9 +37,12 @@ body {
   background: #f7f7f7;
   padding: 0px 0px 10px 0px;
   text-align: center;
-  border: 1px #EA7500 solid;
+  border: 1px #F60 solid;
+  border-radius: 8px;
   font-size: 12px;
-  color: #666;  
+  color: #666;
+  margin-left: 8px;
+  margin-right:8px;
 }
 
 .mainBlockcontents {
@@ -50,6 +58,7 @@ body {
   width: 250px;
   background:#f7f7f7;
   border:1px #333 solid;
+  border-radius: 8px;
   margin-bottom: 10px;
 }
 
@@ -64,6 +73,7 @@ body {
   font-size: 12px;
   color: #333;
   border: 1px #333 solid;
+  border-radius: 8px;
   background: #f7f7f7;  
 }
 
@@ -105,29 +115,35 @@ h5 {
 
 .infoPane h3 {
   background: #333;
-  color: #ea7500;
+  border-radius: 8px;
+  color: #F60;
   text-align: center;
   padding: 5px 10px 5px 10px;
+  margin: 5px;
 }
 
 .contentPane h2 {
   background: #333;
-  color: #ea7500;
+  border-radius: 8px;
+  color: #F60;
   text-align: center;
   padding: 2px 10px 2px 10px;
+  margin: 5px;
 }
 
 .mainBlock h1 {
-  background: #EA7500;
+  background: #F60;
   color: #333;
   text-align: center;
   padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+  margin: 5px;
 }
 
 .stepsBox {
   float: right;
   background: #333;
-  border: 1px #ea7500 solid;
+  border: 1px #F60 solid;
   padding: 10px 15px 10px 0px;
   margin-right: 10px;
 }
@@ -157,15 +173,16 @@ h5 {
   background: #FFD6D3;
   border: 1px #FF958C solid;
   padding: 10px;
-  text-align: center
+  text-align: center;
+  border-radius: 8px;
 }
 
 #pageHeader A:link, #pageHeader A:visited { color: #999; text-decoration: none; }
 #pageHeader A:hover { color: #F60; text-decoration: none; }
 
 .inputForm {
-  background-color: #ea7500;
-  border: 1px #ea7500 solid;
+  background-color: #F60;
+  border: 1px #F60 solid;
   margin-left: 15px;
   width:auto;
 }
