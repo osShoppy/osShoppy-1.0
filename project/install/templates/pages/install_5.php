@@ -1,4 +1,4 @@
-<?php //$Id: /catalog/install/templates/pages/install_4.php
+<?php //$Id: /catalog/install/templates/pages/install_5.php
 
   require('../includes/database_tables.php');
 
@@ -42,7 +42,7 @@ $check_query = osc_db_query('select user_name from ' . TABLE_ADMINISTRATORS . ' 
   <p>Deze web gebaseerde wizard installatie zal <?php echo PROJECT_VERSION ?> configuren en op uw webserver installeren.</p>
   <p><font color="#FF6600">Na deze stap dient u van de twee <b>configure.php</b> files de bestandsrechten terug te zetten van <b>777</b> naar <b>644</b>!<br />
   De installatie map dient u te verwijderen uit de root van uw site. <b>Dit is uit veiligheidsredenen vereist!</b> </font></p>
-  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://www.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b><br /><br /></p>
+  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://docs.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b><br /><br /></p>
 </div>
 
 <div class="contentBlock">
@@ -55,8 +55,8 @@ $check_query = osc_db_query('select user_name from ' . TABLE_ADMINISTRATORS . ' 
       <p><b>gebruikersnaam: <font color="#33CC66">change@mail.nl</font></b>
       <p><b>wachtwoord: <font color="#33CC66">changeme</font></b></p>
       <p><font color="#FF6600"><center><b>Verander gebruikersnaam en wachtwoord meteen bij de eerste keer inloggen op uw administratie paneel!</b></center></font></p>
-      <p><center>Het Hilvy Team wenst uw veel succes met uw eigen online webwinkel!</center></p>
-      <p align="right"><b>- hilvy.nl</b></p>
+      <p><center>Het osShoppy Team wenst uw veel succes met uw eigen online webwinkel!</center></p>
+      <p align="right"><b>- osshoppy.com</b></p>
     </div>
   </div>
 

@@ -31,7 +31,7 @@
   <p>In deze tweede stap wordt de mappen structuur en worden de correcte parameters ge&iuml;nstalleerd.<br />
   Vul hieronder in de invoervelden de URL van de online winkel en het pad naar de mappen op de server in.<br /><br />
   Volg de instructies op het scherm die u verder zullen helpen met de installatie van web server, installeer voorbeeld data en winkel instellingen opties.<br /><br /> 
-  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://www.docs.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b></p>
+  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://docs.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b></p>
 </div>
 
 <div class="contentBlock">
@@ -41,7 +41,7 @@
     <div class="infoPaneContents">
       <p>De webserver zorgt voor een soepel verloop van de pagina's van uw online winkel.
       Gasten en klanten kunnen door het snel laden van pagina's snel surfen in de webwinkel.
-      De web server parameters zorgen dat de links naar pagina's juist verlopen naar de correcte locatie.</p>
+      De web server parameters zorgen dat de links naar pagina's juist verlopen en naar de correcte locatie.</p>
     </div>
   </div>
 

@@ -14,10 +14,10 @@
   </div>
 
   <p>Wanneer u <?php echo PROJECT_VERSION ?> voor het eerst gebruikt dan is het aangeraden om voorbeeld data te installeren.</p>
-  <p>Maak een keuze uit de &eacute;&eacute;n van de zes hier onderstaande voorbeeld data bestanden.<br />
-  	 Het is ook mogelijk om alle drie de voorbeeld data te installeren.<br /><br />
+  <p>Maak een keuze uit de &eacute;&eacute;n van de vijf hier onderstaande voorbeeld data bestanden.<br />
+  	 Het is ook mogelijk om alle voorbeeld data te installeren.<br /><br />
   	 Na het installeren van de voorbeeld data druk op volgende voor de laatste twee stappen van de installatie.<br /><br /> 
-  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://www.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b></p>
+  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://docs.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b></p>
 </div>
 
 <div class="contentBlock">
@@ -41,7 +41,7 @@
 
     <form name="install" id="installForm" action="install.php?step=4" method="post">
 
-    <table border="0" width="99%" cellspacing="0" cellpadding="4" class="inputFormSample">
+    <table border="0" width="99%" cellspacing="0" cellpadding="4" class="inputForm">
       <tr>
         <td class="inputField" align="center"><a href="sample_data_osshoppy.php"><img src="images/button_install_sample_data.png" border="0" alt="Stop Installatie" /></td>
         <td class="inputDescription">Voorbeeld Data van osShoppy<br />

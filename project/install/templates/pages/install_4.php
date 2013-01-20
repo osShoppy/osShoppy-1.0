@@ -1,4 +1,4 @@
-<?php //$Id: /catalog/install/templates/pages/install_3.php ?>
+<?php //$Id: /catalog/install/templates/pages/install_4.php ?>
 
 <div class="mainBlock">
   <h1>Installatie Stap 4</h1>
@@ -17,7 +17,7 @@
   <p>In deze vierde stap dient er een winkelnaam, winkeleigenaar en winkel emailadres opgegeven worden.<br />
   Vul hieronder in de invoervelden winkelnaam, winkeleigenaar en winkel email adres in.<br /><br />
   Volg de instructies op het scherm die u verder zullen helpen met installatie van de winkel configuratie opties.<br /><br /> 
-  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://www.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b></p>
+  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://docs.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b></p>
 </div>
 
 <div class="contentBlock">

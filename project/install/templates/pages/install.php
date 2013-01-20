@@ -89,7 +89,7 @@
   <p>In deze eerste stap zal de SQL file in uw aangemaakte database ge&iuml;mporteerd worden.<br />
   Vul hieronder de aangemaakte database gegevens in.<br /><br />
   Volg de instructies op het scherm die u verder zullen helpen met de installatie van database server, <br />installeer voorbeeld data, webserver en winkel instellingen opties.<br /><br /> 
-  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://www.docs.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b></p>
+  <b>Wanneer hulp vereist is bij de verschillende stappen raadpleeg dan de documentatie bestanden op <a href="http://docs.osshoppy.com" target="_blank"><u>osShoppy</u></a>.</b></p>
 </div>
 
 <div class="contentBlock">
@@ -99,9 +99,9 @@
     <div class="infoPaneContents">
       <p><b><center>Maak een database in uw cPanel aan om de SQL file in te kunnen importeren.</center></b></p>
       <p><font color="#ff6600"><center><b>" Onderbreek dit proces niet! "</b></center></font></p>
-      <p>Tijdens dit proces word de database gevuld met de benodigde tabellen om de gegevens uit de online winkel in op te slaan.
-      <p>In de database worden gegevens opgeslagen die in de online winkel worden ingevoerd.
-      zoals;<br /> artikel informatie, klant gegevens, bestellingen, betaal en verzend gegevens, coupons, downloads enz.</p>
+      <p>Tijdens dit proces wordt de database gevuld met de benodigde tabellen om de configuraties van de webwinkel in op te slaan.
+      <p>In de database worden gegevens opgeslagen die in de webwinkel worden ingevoerd.
+      zoals;<br /> product informatie, klant gegevens, bestellingen, betaal en verzend gegevens, coupons, downloads, support tickets, enz.</p>
     </div>
   </div>
 
